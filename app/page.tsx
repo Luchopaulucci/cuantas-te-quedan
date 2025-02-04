@@ -1,5 +1,5 @@
 import Materia from "@/components/Materia";
-import Materias from "../data/materias.json"
+import Materias from "../public/materias.json"
 
 export default function Home() {
   return (
