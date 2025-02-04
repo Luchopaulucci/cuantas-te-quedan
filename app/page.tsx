@@ -1,12 +1,22 @@
-import { auth } from "@/auth";
-import SignIn from "@/components/sign-in";
-export default async function Home() {
-  const session = await auth();
-  if (!session) return <div>Not authenticated</div>;
+import Materia from "@/components/Materia";
+import Materias from "../public/materias.json";
+
+export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <SignIn />
-      {JSON.stringify(session, null, 2)}
+    <div className="h-max w-full flex flex-col justify-center items-center">
+      <h1 className="sm:text-8xl text-5xl font-bold text-blue-400 my-8">
+        UTNTracker
+      </h1>
+      <div className=" flex flex-col justify-center items-center w-4xl sm:gap-8 gap-4">
+        {Materias.materias.map((materia) => (
+          <Materia
+            key={materia.codigo}
+            /* codigo={materia.codigo} */
+            nombre={materia.nombre}
+            /* regimen={materia.regimen} */
+          />
+        ))}
+      </div>
     </div>
   );
 }

@@ -1,0 +1,131 @@
+{
+    "materias": [
+      {
+        "codigo": 1,
+        "nombre": "Análisis Matemático I",
+        "regimen": "1° Semestre",
+        "correlativas_regular": [],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 2,
+        "nombre": "Álgebra y Geometría Analítica",
+        "regimen": "1° Semestre",
+        "correlativas_regular": [],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 3,
+        "nombre": "Física I",
+        "regimen": "2° Semestre",
+        "correlativas_regular": [],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 4,
+        "nombre": "Inglés I",
+        "regimen": "1° Semestre / 2° Semestre",
+        "correlativas_regular": [],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 5,
+        "nombre": "Lógica y Estructuras Discretas",
+        "regimen": "1° Semestre",
+        "correlativas_regular": [],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 6,
+        "nombre": "Algoritmos y Estructuras de Datos",
+        "regimen": "2° Semestre",
+        "correlativas_regular": [],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 7,
+        "nombre": "Arquitectura de Computadores",
+        "regimen": "2° Semestre",
+        "correlativas_regular": [],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 8,
+        "nombre": "Sistemas y Procesos de Negocio",
+        "regimen": "2° Semestre",
+        "correlativas_regular": [],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 9,
+        "nombre": "Análisis Matemático II",
+        "regimen": "1° Semestre",
+        "correlativas_regular": [1, 2],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 10,
+        "nombre": "Física II",
+        "regimen": "2° Semestre",
+        "correlativas_regular": [1, 3],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 11,
+        "nombre": "Ingeniería y Sociedad",
+        "regimen": "1° Semestre",
+        "correlativas_regular": [],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 12,
+        "nombre": "Inglés II",
+        "regimen": "1° Semestre / 2° Semestre",
+        "correlativas_regular": [4],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 13,
+        "nombre": "Sintaxis y Semántica de los Lenguajes",
+        "regimen": "1° Semestre",
+        "correlativas_regular": [5, 6],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 14,
+        "nombre": "Paradigmas de Programación",
+        "regimen": "2° Semestre",
+        "correlativas_regular": [5, 6],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 15,
+        "nombre": "Sistemas Operativos",
+        "regimen": "2° Semestre",
+        "correlativas_regular": [7],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 16,
+        "nombre": "Análisis de Sistemas de Información (Integradora)",
+        "regimen": "Anual",
+        "correlativas_regular": [6, 8],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 17,
+        "nombre": "Probabilidades y Estadísticas",
+        "regimen": "1° Semestre",
+        "correlativas_regular": [1, 2],
+        "correlativas_aprobada": []
+      },
+      {
+        "codigo": 18,
+        "nombre": "Economía",
+        "regimen": "1° Semestre",
+        "correlativas_regular": [1, 2],
+        "correlativas_aprobada": []
+      }
+    ]
+  }
+  
