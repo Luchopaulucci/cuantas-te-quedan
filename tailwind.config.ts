@@ -11,6 +11,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        amarillo: "#FFD100",
+        verde1: "#177245",
+
       },
     },
   },

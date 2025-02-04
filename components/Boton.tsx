@@ -1,10 +1,14 @@
 type BotonProps = {
   titulo: string;
+  onClick: () => void;
 };
 
-const Boton = ({ titulo }: BotonProps) => {
+const Boton = ({ titulo, onClick }: BotonProps) => {
   return (
-    <button className="p-3 bg-slate-600 text-white rounded-full hover:bg-slate-500 transition sm:w-full w-1/3">
+    <button
+      onClick={onClick}
+      className="p-3 text-black font-semibold border-black border-solid border-x border-y sm:rounded-full rounded-xl bg-white hover:bg-slate-200 transition sm:w-full w-1/3"
+    >
       {titulo}
     </button>
   );
