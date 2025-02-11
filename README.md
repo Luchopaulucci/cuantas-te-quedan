@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ¿Cuántas te quedan?
+## Seguimiento de materias
 
-## Getting Started
+Este proyecto es una página web desarrollada por y para estudiantes de la UTN FRM para ayudar a visualizar cuántas materias les quedan por cursar en la carrera, viendo cuáles tienen aprobadas, cuáles regulares y otorgando un porcentaje de la carrera completada 🦾. Actualmente, la plataforma permite consultar el avance en la carrera de **Ingeniería en Sistemas de Información**.
 
-First, run the development server:
+## 🚀 Características
+- Visualización de materias aprobadas y pendientes.
+- Interfaz sencilla y fácil de usar.
+- Soporte inicial para la carrera de **Ingeniería en Sistemas de Información**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔮 Próximamente
+- Soporte para **todas las carreras** de la facultad.
+- Inclusión de **materias electivas**.
+- Mejora en la experiencia de usuario y optimización del sistema.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Tecnologías Utilizadas
+- [React.js](https://reactjs.org/)
+- Typescript
+- Node.js
+- Base de datos PostgreSQL
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
+🌐 **Despliegue**
+Este proyecto está actualmente desplegado en **Vercel**. Podes acceder a la aplicación en el siguiente enlace:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[🔗 Ver Proyecto en Vercel](https://cuantas-te-quedan-utn.vercel.app/)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💡 **¿Tenes sugerencias o mejoras?** No dudes en contactarnos para aportar ideas y feedback. 🚀
