@@ -13,9 +13,9 @@ const Materia = ({ name, status, handleStatus, code }: MateriaProps) => {
       className={`flex sm:flex-row  flex-col justify-between items-center sm:w-full w-5/6 border-black  border-solid border-[1px] sm:rounded-full rounded-xl p-3 gap-4 transition
         ${
           status === "regular"
-            ? "bg-amarillo"
+            ? "bg-amarillo border-amarillo"
             : status === "aprobada"
-            ? "bg-verde1"
+            ? "bg-verde1 border-verde1"
             : "bg-white"
         }
       `}

@@ -30,7 +30,7 @@ export default function Home() {
       {/* <h1 className="sm:text-6xl  font-bold text-black my-8">
         ¿Cuántas te quedan?
       </h1> */}
-      <div className="w-full py-10">
+      <div className="w-full py-5">
         <div className="flex flex-row gap-5 justify-center pt-5">
           <p className="text-2xl">Materias aprobadas: {passed} </p>
           <p className="text-2xl">Materias regularizdas: {regular} </p>

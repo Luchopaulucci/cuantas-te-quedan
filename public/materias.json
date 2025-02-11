@@ -223,7 +223,7 @@
         },
         {
           "code": 30,
-          "name": "Administración de Sistemas de Información (Integradora)",
+          "name": "Administración de Sistemas de Información",
           "regimen": "Anual",
           "correlativas_regular": [18, 23],
           "correlativas_aprobada": [16]
