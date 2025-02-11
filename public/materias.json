@@ -115,7 +115,7 @@
         },
         {
           "code": 16,
-          "name": "Análisis de Sistemas de Información (Integradora)",
+          "name": "Análisis de Sistemas de Información",
           "regimen": "Anual",
           "correlativas_regular": [6, 8],
           "correlativas_aprobada": []
@@ -169,7 +169,7 @@
         },
         {
           "code": 23,
-          "name": "Diseño de Sistemas de Información (Integradora)",
+          "name": "Diseño de Sistemas de Información",
           "regimen": "Anual",
           "correlativas_regular": [14, 16],
           "correlativas_aprobada": [4, 6, 8]

@@ -10,7 +10,7 @@ type MateriaProps = {
 const Materia = ({ name, status, handleStatus, code }: MateriaProps) => {
   return (
     <div
-      className={`flex sm:flex-row flex-col justify-between items-center sm:w-full w-5/6 border-black border-solid border-x border-y sm:rounded-full rounded-xl p-3 gap-4 transition
+      className={`flex sm:flex-row  flex-col justify-between items-center sm:w-full w-5/6 border-black  border-solid border-[1px] sm:rounded-full rounded-xl p-3 gap-4 transition
         ${
           status === "regular"
             ? "bg-amarillo"
@@ -24,7 +24,7 @@ const Materia = ({ name, status, handleStatus, code }: MateriaProps) => {
         <h3 className="text-xl font-bold">{name}</h3>
       </div>
       {!status ? (
-        <div className="flex flex-row justify-center gap-4 w-full">
+        <div className="flex flex-row justify-center gap-1 w-full">
           <Button
             title={"Regular"}
             onClick={() => handleStatus("regular", code)}
