@@ -4,7 +4,7 @@ import * as React from "react";
 
 import { Progress } from "@/components/ui/progress";
 
-export function ProgressCustom({ progress }) {
+export function ProgressCustom({ progress }: { progress: number }) {
   return (
     <div className="relative w-[60%]">
       <Progress value={progress} className="h-6" />

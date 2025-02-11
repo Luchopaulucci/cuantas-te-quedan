@@ -1,8 +1,5 @@
 "use client";
-import MateriaContainer, {
-  Subject,
-  SubjectByYear,
-} from "@/components/MateriaContainer";
+import MateriaContainer, { SubjectByYear } from "@/components/MateriaContainer";
 import * as materias from "../public/materias.json";
 import { useState } from "react";
 import References from "@/components/References";
@@ -26,16 +23,21 @@ export default function Home() {
   console.log(passed);
   const passedOverTotal = Math.floor((passed / 36) * 100);
   return (
-    <div className="h-max w-full flex flex-col justify-center items-center">
+    <div className="h-max  flex flex-col justify-center items-center">
       {/* <h1 className="sm:text-6xl  font-bold text-black my-8">
         ¿Cuántas te quedan?
       </h1> */}
       <div className="w-full py-5">
-        <div className="flex flex-row gap-5 justify-center pt-5">
+        <h2 className="text-4xl  flex text-center">
+          {" "}
+          Ingeniería en Sistemas 2025
+        </h2>
+        <div className="flex flex-col lg:flex-row gap-5 justify-center items-center pt-5">
           <p className="text-2xl">Materias aprobadas: {passed} </p>
           <p className="text-2xl">Materias regularizdas: {regular} </p>
           <h3 className="text-2xl ">
-            Aprobaste el <span className="font-bold"> {passedOverTotal}% </span>
+            ¡Aprobaste el{" "}
+            <span className="font-bold"> {passedOverTotal}% </span>
             de la carrera!
           </h3>
         </div>

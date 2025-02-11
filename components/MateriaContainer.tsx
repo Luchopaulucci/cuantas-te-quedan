@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import Materia from "./Materia";
 
 export type SubjectStatus = "aprobada" | "regular" | null;
@@ -14,7 +13,7 @@ export type SubjectByYear = {
 };
 type MateriaContainerProps = {
   subStatus: SubjectByYear[];
-  setSubStatus: any;
+  setSubStatus: (e: SubjectByYear[]) => void;
 };
 export default function MateriaContainer({
   subStatus,
@@ -35,15 +34,15 @@ export default function MateriaContainer({
     setSubStatus(nextSubStatus);
   }
   return (
-    <div className="grid grid-cols-2 gap-2">
-      {subStatus.map((subYear, i) => {
+    <div className="grid lg:grid-cols-2 grid-cols-1 gap-2">
+      {subStatus.map((subYear) => {
         return (
           <div key={subYear.year}>
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-700 capitalize my-4 text-center">
               {subYear.year}
             </h2>
             <div className="flex flex-col gap-4 w-full">
-              {subYear.subjects.map((s, i: number) => (
+              {subYear.subjects.map((s) => (
                 <div key={s.code} className="w-full max-w-[500px] mx-auto">
                   <Materia
                     key={s.code}

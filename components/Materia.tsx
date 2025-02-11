@@ -1,16 +1,17 @@
 import { Button } from "./Boton";
+import { SubjectStatus } from "./MateriaContainer";
 
 type MateriaProps = {
   name: string;
   code: number;
-  status: any;
-  handleStatus: any;
+  status: SubjectStatus | undefined;
+  handleStatus: (e: SubjectStatus, code: number) => void;
 };
 
 const Materia = ({ name, status, handleStatus, code }: MateriaProps) => {
   return (
     <div
-      className={`flex sm:flex-row  flex-col justify-between items-center sm:w-full w-5/6 border-black  border-solid border-[1px] sm:rounded-full rounded-xl p-3 gap-4 transition
+      className={`flex sm:flex-row  flex-col justify-between items-center w-full  border-black  border-solid border-[1px] rounded-full  p-3 gap-4 transition
         ${
           status === "regular"
             ? "bg-amarillo border-amarillo"
@@ -35,9 +36,7 @@ const Materia = ({ name, status, handleStatus, code }: MateriaProps) => {
           />
         </div>
       ) : (
-        <div>
-          <Button title="Revertir" onClick={() => handleStatus(null, code)} />
-        </div>
+        <Button title="Revertir" onClick={() => handleStatus(null, code)} />
       )}
     </div>
   );

@@ -4,7 +4,7 @@ type BotonProps = {
   variant?: "destructive";
 };
 
-export const Button = ({ title, onClick, variant }: BotonProps) => {
+export const Button = ({ title, onClick }: BotonProps) => {
   return (
     <button
       onClick={onClick}

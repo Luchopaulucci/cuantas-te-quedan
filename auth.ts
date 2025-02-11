@@ -4,7 +4,7 @@ import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";
 import { accounts, sessions, users } from "./db/schema";
 
-export const { auth, handlers, signIn, singOut } = NextAuth({
+export const { auth, handlers, signIn } = NextAuth({
   callbacks: {
     session: ({ session, user }) => ({
       ...session,
