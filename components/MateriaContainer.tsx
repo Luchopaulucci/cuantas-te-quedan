@@ -13,14 +13,14 @@ export type SubjectByYear = {
   subjects: Subject[];
 };
 type MateriaContainerProps = {
-  subStatus: any[];
+  subStatus: SubjectByYear[];
   setSubStatus: any;
 };
 export default function MateriaContainer({
   subStatus,
   setSubStatus,
 }: MateriaContainerProps) {
-  function handleStatus(newStatus: string, code: string) {
+  function handleStatus(newStatus: SubjectStatus, code: number) {
     let nextSubStatus = [...subStatus];
     nextSubStatus = nextSubStatus.map((subByYear) => {
       const subject = subByYear.subjects.findIndex((s) => s.code == code);
@@ -43,7 +43,7 @@ export default function MateriaContainer({
               {subYear.year}
             </h2>
             <div className="flex flex-col gap-4 w-full">
-              {subYear.subjects.map((s, i) => (
+              {subYear.subjects.map((s, i: number) => (
                 <div key={s.code} className="w-full max-w-[500px] mx-auto">
                   <Materia
                     key={s.code}

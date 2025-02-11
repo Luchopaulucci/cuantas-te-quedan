@@ -2,7 +2,7 @@ import { Button } from "./Boton";
 
 type MateriaProps = {
   name: string;
-  code: string;
+  code: number;
   status: any;
   handleStatus: any;
 };

@@ -4,8 +4,9 @@ import MateriaContainer, {
   SubjectByYear,
 } from "@/components/MateriaContainer";
 import * as materias from "../public/materias.json";
-import { Progress } from "@/components/ui/progress";
 import { useState } from "react";
+import References from "@/components/References";
+import { ProgressCustom, ProgressDemo } from "@/components/Progress";
 
 export default function Home() {
   const [subStatus, setSubStatus] = useState<SubjectByYear[]>(
@@ -26,12 +27,19 @@ export default function Home() {
   const passedOverTotal = Math.floor((passed / 36) * 100);
   return (
     <div className="h-max w-full flex flex-col justify-center items-center">
-      <h3>Aprobaste el {passedOverTotal}% de la carrera!</h3>
-      <Progress value={passedOverTotal} className="w-[80%]" />
-      <h1 className="sm:text-8xl text-5xl font-bold text-black my-8">
+      <h1 className="sm:text-6xl  font-bold text-black my-8">
         Cuántas te quedan??
       </h1>
-      <h3 className="sm:text-4xl">Enviaselo a esa tia.</h3>
+      <div className="flex flex-row gap-5">
+        <p className="text-2xl">Materias aprobadas: {passed} </p>
+        <p className="text-2xl">Materias regularizdas: {regular} </p>
+        <h3 className="pb-5 text-2xl">
+          Aprobaste el <span className="font-bold"> {passedOverTotal}% </span>de
+          la carrera!
+        </h3>
+      </div>
+      <ProgressCustom progress={passedOverTotal} />
+
       <div className=" flex flex-col justify-center items-center w-4xl sm:gap-8 gap-4">
         <MateriaContainer subStatus={subStatus} setSubStatus={setSubStatus} />
       </div>
