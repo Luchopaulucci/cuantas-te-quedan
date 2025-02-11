@@ -34,7 +34,7 @@ export default function MateriaContainer({
     setSubStatus(nextSubStatus);
   }
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 gap-2">
+    <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 sm:mx-0 mx-4">
       {subStatus.map((subYear) => {
         return (
           <div key={subYear.year}>

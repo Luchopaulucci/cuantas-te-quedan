@@ -28,10 +28,12 @@ export default function Home() {
         ¿Cuántas te quedan?
       </h1> */}
       <div className="w-full py-5">
-        <h2 className="text-4xl  flex text-center">
-          {" "}
-          Ingeniería en Sistemas 2025
-        </h2>
+        <div className="w-full flex justify-center">
+          <h2 className="text-4xl font-medium text-center">
+            {" "}
+            Ingeniería en Sistemas 2025
+          </h2>
+        </div>
         <div className="flex flex-col lg:flex-row gap-5 justify-center items-center pt-5">
           <p className="text-2xl">Materias aprobadas: {passed} </p>
           <p className="text-2xl">Materias regularizdas: {regular} </p>
