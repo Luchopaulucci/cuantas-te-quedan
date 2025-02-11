@@ -1,36 +1,44 @@
-"use client";
-
-import { useState } from "react";
-import Boton from "./Boton";
+import { Button } from "./Boton";
 
 type MateriaProps = {
-  nombre: string;
+  name: string;
+  code: string;
+  status: any;
+  handleStatus: any;
 };
 
-const Materia = ({ nombre }: MateriaProps) => {
-  const [estado, setEstado] = useState<"ninguno" | "regular" | "aprobada">(
-    "ninguno"
-  );
-
+const Materia = ({ name, status, handleStatus, code }: MateriaProps) => {
   return (
     <div
       className={`flex sm:flex-row flex-col justify-between items-center sm:w-full w-5/6 border-black border-solid border-x border-y sm:rounded-full rounded-xl p-3 gap-4 transition
         ${
-          estado === "regular"
+          status === "regular"
             ? "bg-amarillo"
-            : estado === "aprobada"
+            : status === "aprobada"
             ? "bg-verde1"
             : "bg-white"
         }
       `}
     >
       <div className="flex flex-col gap-6 w-full pl-2 sm:text-left text-center">
-        <h3 className="text-xl font-bold">{nombre}</h3>
+        <h3 className="text-xl font-bold">{name}</h3>
       </div>
-      <div className="flex flex-row justify-center gap-4 w-full">
-        <Boton titulo="Regular" onClick={() => setEstado("regular")} />
-        <Boton titulo="Aprobada" onClick={() => setEstado("aprobada")} />
-      </div>
+      {!status ? (
+        <div className="flex flex-row justify-center gap-4 w-full">
+          <Button
+            title={"Regular"}
+            onClick={() => handleStatus("regular", code)}
+          />
+          <Button
+            title="Promocionada"
+            onClick={() => handleStatus("aprobada", code)}
+          />
+        </div>
+      ) : (
+        <div>
+          <Button title="Revertir" onClick={() => handleStatus(null, code)} />
+        </div>
+      )}
     </div>
   );
 };
