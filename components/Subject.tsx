@@ -1,5 +1,5 @@
-import { Button } from "./Boton";
-import { SubjectStatus } from "./MateriaContainer";
+import { SubjectStatus } from "@/types/types";
+import { Button } from "./Button";
 
 type MateriaProps = {
   name: string;

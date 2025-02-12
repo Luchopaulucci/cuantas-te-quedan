@@ -1,16 +1,7 @@
 "use client";
-import Materia from "./Materia";
+import { SubjectByYear, SubjectStatus } from "@/types/types";
+import Materia from "./Subject";
 
-export type SubjectStatus = "aprobada" | "regular" | null;
-export type Subject = {
-  code: number;
-  name: string;
-  status?: SubjectStatus;
-};
-export type SubjectByYear = {
-  year: string;
-  subjects: Subject[];
-};
 type MateriaContainerProps = {
   subStatus: SubjectByYear[];
   setSubStatus: (e: SubjectByYear[]) => void;
