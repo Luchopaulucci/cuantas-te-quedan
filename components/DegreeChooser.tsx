@@ -1,7 +1,5 @@
-import Link from "next/link";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import Image from "next/image";
 import { redirect } from "next/navigation";
 
 export default function CarreraChooser({ name }: { name: string }) {
