@@ -33,7 +33,7 @@ export default function DegreeContainer({ degree }: { degree: Degree }) {
     <div className="h-max  flex flex-col justify-center items-center">
       <div className="w-full py-5">
         <div className="w-full flex justify-center">
-          <h2 className="text-4xl font-medium text-center">
+          <h2 className="sm:text-4xl text-xl font-medium text-center">
             {" "}
             {degree.degree} - {university}
           </h2>
