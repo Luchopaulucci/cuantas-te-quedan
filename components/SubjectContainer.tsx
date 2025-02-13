@@ -6,7 +6,7 @@ type MateriaContainerProps = {
   subStatus: SubjectByYear[];
   setSubStatus: (e: SubjectByYear[]) => void;
 };
-export default function MateriaContainer({
+export default function SubjectContainer({
   subStatus,
   setSubStatus,
 }: MateriaContainerProps) {

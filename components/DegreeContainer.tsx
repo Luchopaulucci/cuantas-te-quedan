@@ -1,11 +1,16 @@
-import { useState } from "react";
-import MateriaContainer from "./SubjectContainer";
+import { useEffect, useState } from "react";
+import SubjectContainer from "./SubjectContainer";
 import { ProgressCustom } from "./Progress";
 import References from "./References";
 import { Degree, SubjectByYear } from "@/types/types";
 
 export default function DegreeContainer({ degree }: { degree: Degree }) {
   const [subStatus, setSubStatus] = useState<SubjectByYear[]>(degree.plan);
+  const [university, setUniversity] = useState<string | null>(null);
+  useEffect(() => {
+    const univeristyCode = localStorage.getItem("university_choosen");
+    if (univeristyCode) setUniversity(univeristyCode);
+  });
 
   let passed = 0;
   let regular = 0;
@@ -28,7 +33,10 @@ export default function DegreeContainer({ degree }: { degree: Degree }) {
     <div className="h-max  flex flex-col justify-center items-center">
       <div className="w-full py-5">
         <div className="w-full flex justify-center">
-          <h2 className="text-4xl font-medium text-center"> {degree.degree}</h2>
+          <h2 className="text-4xl font-medium text-center">
+            {" "}
+            {degree.degree} - {university}
+          </h2>
         </div>
         <div className="flex flex-col lg:flex-row gap-5 justify-center items-center pt-5">
           <p className="text-2xl">Materias aprobadas: {passed} </p>
@@ -48,7 +56,7 @@ export default function DegreeContainer({ degree }: { degree: Degree }) {
         </div>
       </div>
       <div className="justify-center items-center w-4xl sm:gap-8 gap-4">
-        <MateriaContainer subStatus={subStatus} setSubStatus={setSubStatus} />
+        <SubjectContainer subStatus={subStatus} setSubStatus={setSubStatus} />
       </div>
     </div>
   );

@@ -1,19 +1,23 @@
+import { Degree } from "@/types/types";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { redirect } from "next/navigation";
 
-export default function CarreraChooser({ name }: { name: string }) {
-  function handleOnClick(name: string) {
-    localStorage.setItem("choosen", name);
+export default function DegreeChooser({ degree }: { degree: Degree }) {
+  function handleOnClick(degree: Degree) {
+    localStorage.setItem("choosen", JSON.stringify(degree));
+    console.log("name", degree);
     redirect("/degree-progress");
   }
   return (
-    <Card>
+    <Card key={degree.degree}>
       <CardHeader>
-        <CardTitle>{name}</CardTitle>
+        <CardTitle>{degree.degree}</CardTitle>
       </CardHeader>
       <CardContent className="flex-col gap-2 justify-center items-center">
-        <Button onClick={() => handleOnClick(name)}>Completar Materias</Button>
+        <Button onClick={() => handleOnClick(degree)}>
+          Completar Materias
+        </Button>
       </CardContent>
     </Card>
   );

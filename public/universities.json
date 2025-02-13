@@ -1,0 +1,16 @@
+{
+  "universities": [
+    {
+      "code": "UTN",
+      "fullName": "Universidad Nacional Tecnológica"
+    },
+    {
+      "code": "UNCUYO",
+      "fullName": "Universidad Nacional de Cuyo"
+    },
+    {
+      "code": "UM",
+      "fullName": "Universidad de Mendoza"
+    }
+  ]
+}

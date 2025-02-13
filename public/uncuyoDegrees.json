@@ -1,0 +1,600 @@
+{
+  "unCuyoDegrees": [
+    {
+      "degree": "Ingeniería Mecatrónica",
+      "plan": [
+        {
+          "year": "Primer Año",
+          "subjects": [
+            {
+              "code": 1,
+              "name": "Álgebra",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 2,
+              "name": "Análisis Matemático I",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 3,
+              "name": "Geometría Analítica",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 4,
+              "name": "Física I",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 5,
+              "name": "Introducción a la Ingeniería",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 6,
+              "name": "Química General e Inorgánica",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 7,
+              "name": "Sistemas de Representación y Dibujo",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            }
+          ]
+        },
+        {
+          "year": "Segundo Año",
+          "subjects": [
+            {
+              "code": 8,
+              "name": "Análisis Matemático II",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 9,
+              "name": "Cálculo Numérico y Métodos Numéricos",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 10,
+              "name": "Física II",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 11,
+              "name": "Inglés Técnico",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 12,
+              "name": "Estadística Técnica",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 13,
+              "name": "Matemática Avanzada",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 14,
+              "name": "Electrotecnia y Máquinas Eléctricas",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 15,
+              "name": "Termodinámica y Máquinas Térmicas",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            }
+          ]
+        },
+        {
+          "year": "Tercer Año",
+          "subjects": [
+            {
+              "code": 16,
+              "name": "Ciencia de los Materiales",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 17,
+              "name": "Estática y Resistencia de los Materiales",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 18,
+              "name": "Producmática",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 19,
+              "name": "Sistemas de Automatización",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 20,
+              "name": "Inglés Técnico",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 21,
+              "name": "Electrónica General y Aplicada",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 22,
+              "name": "Informática",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 23,
+              "name": "Mecánica Aplicada",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 24,
+              "name": "Mecánica de los Fluidos",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            }
+          ]
+        },
+        {
+          "year": "Cuarto Año",
+          "subjects": [
+            {
+              "code": 25,
+              "name": "Materiales",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 26,
+              "name": "Mecánica Vibratoria",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 27,
+              "name": "Microcontroladores y Electrónica de Potencia",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 28,
+              "name": "Tecnología Industrial",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 29,
+              "name": "Inglés Coloquial",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 30,
+              "name": "Automática y Máquinas Eléctricas",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 31,
+              "name": "Inteligencia Artificial",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 32,
+              "name": "Programación Orientada a Objetos",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 33,
+              "name": "Robótica",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            }
+          ]
+        },
+        {
+          "year": "Quinto Año",
+          "subjects": [
+            {
+              "code": 34,
+              "name": "Automatismos Industriales",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 35,
+              "name": "Inteligencia Artificial",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 36,
+              "name": "Concepción y Fabricación Asistida por Computadora",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 37,
+              "name": "Control y Sistemas",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 38,
+              "name": "Inglés Coloquial",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 39,
+              "name": "Autómatas y Control Discreto",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 40,
+              "name": "Realidad Virtual",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 41,
+              "name": "Robótica",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 42,
+              "name": "Sistemas Neumáticos e Hidráulicos",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 43,
+              "name": "Proyecto Final de Estudio",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 44,
+              "name": "Práctica Profesional Supervisada",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree": "Licenciatura en Ciencias de la Computación",
+      "plan": [
+        {
+          "year": "Primer Año",
+          "subjects": [
+            {
+              "code": 1,
+              "name": "Álgebra",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 2,
+              "name": "Análisis Matemático I",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 3,
+              "name": "Introducción a la Programación",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 4,
+              "name": "Geometría Analítica",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 5,
+              "name": "Análisis Matemático II",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 6,
+              "name": "Matemática Discreta",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 7,
+              "name": "Algoritmos y Estructuras de Datos I",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 8,
+              "name": "Introducción a la Tecnología",
+              "credits": null,
+              "correlativas": []
+            }
+          ]
+        },
+        {
+          "year": "Segundo Año",
+          "subjects": [
+            {
+              "code": 9,
+              "name": "Lógica",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 10,
+              "name": "Arquitectura de las Computadoras",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 11,
+              "name": "Métodos Numéricos",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 12,
+              "name": "Algoritmos y Estructuras de Datos II",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 13,
+              "name": "Sistemas Operativos",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 14,
+              "name": "Paradigmas de Programación",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 15,
+              "name": "Probabilidad y Estadística",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 16,
+              "name": "Lenguajes Formales y Computabilidad",
+              "credits": null,
+              "correlativas": []
+            }
+          ]
+        },
+        {
+          "year": "Tercer Año",
+          "subjects": [
+            {
+              "code": 17,
+              "name": "Ingeniería de Software I",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 18,
+              "name": "Redes de Computadoras",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 19,
+              "name": "Comunicación Técnica I",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 20,
+              "name": "Teoría de Bases de Datos",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 21,
+              "name": "Ingeniería de Software II",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 22,
+              "name": "Comunicación Técnica II",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 23,
+              "name": "Arquitecturas Distribuidas",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 24,
+              "name": "Inteligencia Artificial I",
+              "credits": null,
+              "correlativas": []
+            }
+          ]
+        },
+        {
+          "year": "Cuarto Año",
+          "subjects": [
+            {
+              "code": 25,
+              "name": "Compiladores",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 26,
+              "name": "Programación Paralela y Distribuida",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 27,
+              "name": "Sistemas Distribuidos",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 28,
+              "name": "Proyecto I",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 29,
+              "name": "Inteligencia Artificial II",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 30,
+              "name": "Desarrollo de Competencias Gerenciales y Emprendedoras",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 31,
+              "name": "Optativa",
+              "credits": null,
+              "correlativas": []
+            }
+          ]
+        },
+        {
+          "year": "Quinto Año",
+          "subjects": [
+            {
+              "code": 32,
+              "name": "Tesis de la Carrera",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 33,
+              "name": "Seguridad Informática",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 34,
+              "name": "Optativa I",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 35,
+              "name": "Optativa II",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 36,
+              "name": "Tesina Final de la Carrera",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 37,
+              "name": "Actividad Profesional",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 38,
+              "name": "Práctica Profesional",
+              "credits": null,
+              "correlativas": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

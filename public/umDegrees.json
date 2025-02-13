@@ -1,0 +1,587 @@
+{
+  "umDegrees": [
+    {
+      "degree": "Bioingeniería",
+      "plan": [
+        {
+          "year": "Primer Año",
+          "subjects": [
+            {
+              "code": 1,
+              "name": "Sistemas de Representación",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 2,
+              "name": "Química General",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 3,
+              "name": "Cálculo I",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 4,
+              "name": "Álgebra y Geometría Analítica",
+              "regimen": "Anual",
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 5,
+              "name": "Inglés Técnico",
+              "regimen": "Anual",
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 6,
+              "name": "Informática I",
+              "regimen": "Anual",
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 7,
+              "name": "Física I",
+              "regimen": "Anual",
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 8,
+              "name": "Tecnología Ciencia y Sociedad",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 9,
+              "name": "Cálculo II",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            }
+          ]
+        },
+        {
+          "year": "Segundo Año",
+          "subjects": [
+            {
+              "code": 10,
+              "name": "Cálculo IV",
+              "regimen": null,
+              "correlativas_regular": ["Cálculo II"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 11,
+              "name": "Álgebra Lineal",
+              "regimen": null,
+              "correlativas_regular": ["Álgebra y Geometría Analítica"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 12,
+              "name": "Biología II",
+              "regimen": null,
+              "correlativas_regular": ["Química General"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 13,
+              "name": "Química Biológica",
+              "regimen": null,
+              "correlativas_regular": ["Química General"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 14,
+              "name": "Análisis de Circuitos I",
+              "regimen": null,
+              "correlativas_regular": ["Física I"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 15,
+              "name": "Estadística Aplicada I",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            }
+          ]
+        },
+        {
+          "year": "Tercer Año",
+          "subjects": [
+            {
+              "code": 16,
+              "name": "Análisis de Circuitos II",
+              "regimen": null,
+              "correlativas_regular": ["Análisis de Circuitos I"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 17,
+              "name": "Electrónica Analógica I",
+              "regimen": null,
+              "correlativas_regular": ["Física I"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 18,
+              "name": "Análisis de Señales",
+              "regimen": null,
+              "correlativas_regular": ["Cálculo IV"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 19,
+              "name": "Fisiopatología",
+              "regimen": null,
+              "correlativas_regular": ["Biología II"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 20,
+              "name": "Informática II",
+              "regimen": "Anual",
+              "correlativas_regular": ["Informática I"],
+              "correlativas_aprobada": []
+            }
+          ]
+        },
+        {
+          "year": "Cuarto Año",
+          "subjects": [
+            {
+              "code": 21,
+              "name": "Bioinstrumentación I",
+              "regimen": null,
+              "correlativas_regular": ["Electrónica Analógica I"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 22,
+              "name": "Electrónica Nuclear",
+              "regimen": null,
+              "correlativas_regular": ["Electrónica Analógica I"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 23,
+              "name": "Sistemas Automáticos y de Control",
+              "regimen": null,
+              "correlativas_regular": ["Análisis de Circuitos II"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 24,
+              "name": "Biomecánica",
+              "regimen": null,
+              "correlativas_regular": ["Análisis de Señales"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 25,
+              "name": "Modelos y Simulación",
+              "regimen": null,
+              "correlativas_regular": ["Estadística Aplicada I"],
+              "correlativas_aprobada": []
+            }
+          ]
+        },
+        {
+          "year": "Quinto Año",
+          "subjects": [
+            {
+              "code": 26,
+              "name": "Ingeniería de Rehabilitación",
+              "regimen": null,
+              "correlativas_regular": ["Biomecánica"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 27,
+              "name": "Medicina Nuclear",
+              "regimen": null,
+              "correlativas_regular": ["Electrónica Nuclear"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 28,
+              "name": "Procesamiento de Imágenes",
+              "regimen": null,
+              "correlativas_regular": ["Bioinstrumentación I"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 29,
+              "name": "Evaluación y Seguimiento de Proyectos",
+              "regimen": null,
+              "correlativas_regular": ["Modelos y Simulación"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 30,
+              "name": "Ingeniería, Derecho y Ética Profesional",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 31,
+              "name": "Trabajo Final",
+              "regimen": null,
+              "correlativas_regular": ["Todas las materias aprobadas"],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 32,
+              "name": "Optativa II",
+              "regimen": null,
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree": "Ingeniería Industrial",
+      "plan": [
+        {
+          "year": "Primer Año",
+          "subjects": [
+            {
+              "code": 1,
+              "name": "Sistemas de Representación",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 2,
+              "name": "Química General",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 3,
+              "name": "Cálculo I",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 4,
+              "name": "Cálculo II",
+              "correlativas": [3],
+              "credits": 3
+            },
+            {
+              "code": 5,
+              "name": "Tecnología Ciencia y Sociedad",
+              "correlativas": [],
+              "credits": 3
+            },
+            { "code": 6, "name": "Física I", "correlativas": [], "credits": 6 },
+            {
+              "code": 7,
+              "name": "Álgebra y Geometría Analítica",
+              "correlativas": [],
+              "credits": 5
+            },
+            {
+              "code": 8,
+              "name": "Inglés Técnico",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 9,
+              "name": "Informática I",
+              "correlativas": [],
+              "credits": 7
+            }
+          ],
+          "totalCredits": 38
+        },
+        {
+          "year": "Segundo Año",
+          "subjects": [
+            {
+              "code": 10,
+              "name": "Física II",
+              "correlativas": [6],
+              "credits": 8
+            },
+            {
+              "code": 11,
+              "name": "Química Orgánica",
+              "correlativas": [2],
+              "credits": 5
+            },
+            {
+              "code": 12,
+              "name": "Cálculo III",
+              "correlativas": [4],
+              "credits": 4
+            },
+            {
+              "code": 13,
+              "name": "Economía I",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 14,
+              "name": "Estabilidad",
+              "correlativas": [6],
+              "credits": 6
+            },
+            {
+              "code": 15,
+              "name": "Estadística Aplicada I",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 16,
+              "name": "Organización y Administración de Empresas",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 17,
+              "name": "Álgebra Lineal",
+              "correlativas": [7],
+              "credits": 3
+            },
+            {
+              "code": 18,
+              "name": "Economía II",
+              "correlativas": [13],
+              "credits": 3
+            },
+            {
+              "code": 19,
+              "name": "Electrotecnia Industrial",
+              "correlativas": [6],
+              "credits": 8
+            }
+          ],
+          "totalCredits": 47,
+          "requirementsToEnroll": {
+            "complete_previous_year_credits": 12
+          }
+        },
+        {
+          "year": "Tercer Año",
+          "subjects": [
+            {
+              "code": 20,
+              "name": "Materiales y Ensayos",
+              "correlativas": [14],
+              "credits": 3
+            },
+            {
+              "code": 21,
+              "name": "Mecánica de los Fluidos",
+              "correlativas": [12],
+              "credits": 5
+            },
+            {
+              "code": 22,
+              "name": "Análisis Numérico",
+              "correlativas": [17],
+              "credits": 4
+            },
+            {
+              "code": 23,
+              "name": "Seguridad, Higiene Industrial y Saneamiento",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 24,
+              "name": "Química Industrial",
+              "correlativas": [11],
+              "credits": 4
+            },
+            {
+              "code": 25,
+              "name": "Mecánica Aplicada",
+              "correlativas": [14],
+              "credits": 4
+            },
+            {
+              "code": 26,
+              "name": "Costos Industriales",
+              "correlativas": [18],
+              "credits": 4
+            },
+            {
+              "code": 27,
+              "name": "Termodinámica Industrial",
+              "correlativas": [10],
+              "credits": 5
+            },
+            {
+              "code": 28,
+              "name": "Gestión de Calidad y Medio Ambiente",
+              "correlativas": [],
+              "credits": 3
+            }
+          ],
+          "totalCredits": 36,
+          "requirementsToEnroll": {
+            "complete_previous_year_credits": 38
+          }
+        },
+        {
+          "year": "Cuarto Año",
+          "subjects": [
+            {
+              "code": 29,
+              "name": "Investigación Operativa",
+              "correlativas": [15],
+              "credits": 6
+            },
+            {
+              "code": 30,
+              "name": "Equipamiento Industrial",
+              "correlativas": [27],
+              "credits": 5
+            },
+            {
+              "code": 31,
+              "name": "Comercialización",
+              "correlativas": [26],
+              "credits": 3
+            },
+            {
+              "code": 32,
+              "name": "Electrónica General y Aplicada",
+              "correlativas": [19],
+              "credits": 4
+            },
+            {
+              "code": 33,
+              "name": "Finanzas de Empresas",
+              "correlativas": [26],
+              "credits": 4
+            },
+            {
+              "code": 34,
+              "name": "Administración de Operaciones",
+              "correlativas": [29],
+              "credits": 6
+            },
+            {
+              "code": 35,
+              "name": "Sistemas Automáticos y de Control",
+              "correlativas": [12],
+              "credits": 5
+            },
+            {
+              "code": 36,
+              "name": "Informática Industrial",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 37,
+              "name": "Optativa I",
+              "correlativas": [],
+              "credits": 4
+            }
+          ],
+          "totalCredits": 40,
+          "requirementsToEnroll": {
+            "complete_previous_year_credits": 90
+          }
+        },
+        {
+          "year": "Quinto Año",
+          "subjects": [
+            {
+              "code": 38,
+              "name": "Dirección Estratégica",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 39,
+              "name": "Operaciones y Procesos Industriales",
+              "correlativas": [24],
+              "credits": 4
+            },
+            {
+              "code": 40,
+              "name": "Formulación y Evaluación de Proyectos",
+              "correlativas": [34],
+              "credits": 6
+            },
+            {
+              "code": 41,
+              "name": "Optativa II",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 42,
+              "name": "Ingeniería, Derecho y Ética Profesional",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 43,
+              "name": "Gestión de RRHH",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 44,
+              "name": "Idioma Portugués",
+              "correlativas": [],
+              "credits": 0
+            },
+            {
+              "code": 45,
+              "name": "Optativa III",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 46,
+              "name": "Práctica Profesional Supervisada",
+              "correlativas": [],
+              "credits": 0
+            },
+            {
+              "code": 47,
+              "name": "Trabajo Final",
+              "correlativas": ["Todas las materias obligatorias"],
+              "credits": 10
+            }
+          ],
+          "totalCredits": 39,
+          "requirementsToEnroll": {
+            "complete_previous_year_credits": 130
+          }
+        }
+      ],
+      "totalCredits": 200,
+      "additional_requirements": {
+        "max_recursadas": 2,
+        "final_year_regulation": "Adecuarse a la resolución respectiva"
+      }
+    }
+  ]
+}
