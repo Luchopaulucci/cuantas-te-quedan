@@ -10,7 +10,7 @@ export default function DegreeContainer({ degree }: { degree: Degree }) {
   useEffect(() => {
     const univeristyCode = localStorage.getItem("university_choosen");
     if (univeristyCode) setUniversity(univeristyCode);
-  });
+  }, []);
 
   let passed = 0;
   let regular = 0;

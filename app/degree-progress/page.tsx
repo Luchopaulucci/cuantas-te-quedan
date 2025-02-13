@@ -1,5 +1,4 @@
 "use client";
-import { utnDegrees } from "@/public/utnDegrees.json";
 
 import { useEffect, useState } from "react";
 import DegreeContainer from "@/components/DegreeContainer";

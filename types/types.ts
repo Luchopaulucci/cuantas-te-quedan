@@ -16,3 +16,8 @@ export type Degree = {
   degree: string;
   plan: SubjectByYear[];
 };
+
+export type University = {
+  code: string;
+  fullName: string;
+};
