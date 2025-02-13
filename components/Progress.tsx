@@ -15,7 +15,7 @@ export function ProgressCustom({
     <div className="w-[90%] flex-col items-center justify-center">
       <div className="relative py-5">
         <Progress
-          value={progress}
+          value={progress + progressPassed}
           color="bg-amarillo"
           className="h-6 absolute"
         />
