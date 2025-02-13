@@ -15,12 +15,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex min-h-screen flex-col justify-between">
-        <Navbar />
-        <main className="flex-grow">
-          {children}
-          <Analytics />
-        </main>
+      <body className="w-full">
+        <div className="flex min-h-screen items-center w-[80%] min-w-[400px] mx-auto  flex-col justify-between">
+          <Navbar />
+          <main className="flex-grow">
+            {children}
+            <Analytics />
+          </main>
+        </div>
         <Footer />
       </body>
     </html>
