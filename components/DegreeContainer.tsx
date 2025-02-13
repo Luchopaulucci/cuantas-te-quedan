@@ -28,7 +28,7 @@ export default function DegreeContainer({ degree }: { degree: Degree }) {
     });
   });
   const passedOverTotal = Math.floor((passed / subjectsTotal) * 100);
-
+  const progressOverTotal = Math.floor((regular / subjectsTotal) * 100);
   return (
     <div className="h-max  flex flex-col justify-center items-center">
       <div className="w-full py-5">
@@ -47,8 +47,17 @@ export default function DegreeContainer({ degree }: { degree: Degree }) {
             de la carrera!
           </h3>
         </div>
-        <div className="w-full flex justify-center py-5">
-          <ProgressCustom progress={passedOverTotal} />
+        <div className="w-full flex justify-center flex-col  items-center gap-4 py-5">
+          <ProgressCustom
+            progress={progressOverTotal}
+            progressPassed={passedOverTotal}
+          />
+          <div
+            className={`text-xl font-semibold transition-all items-center  bg-transparent flex-col flex-row justify-center`}
+          >
+            <div>{Math.round(passedOverTotal)}% promocionado</div>
+            <div>{Math.round(progressOverTotal)}% regularizado</div>
+          </div>
         </div>
 
         <div className="flex justify-center">
