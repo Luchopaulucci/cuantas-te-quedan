@@ -40,7 +40,7 @@ export default function DegreeContainer({ degree }: { degree: Degree }) {
         </div>
         <div className="flex flex-col lg:flex-row gap-5 justify-center items-center pt-5">
           <p className="text-2xl">Materias promocionadas: {passed} </p>
-          <p className="text-2xl">Materias regularizdas: {regular + passed} </p>
+          <p className="text-2xl">Materias regularizadas: {regular + passed} </p>
           <h3 className="text-2xl ">
             ¡Aprobaste el{" "}
             <span className="font-bold"> {passedOverTotal}% </span>
