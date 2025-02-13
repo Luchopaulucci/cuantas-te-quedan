@@ -15,9 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="flex min-h-screen flex-col justify-between">
         <Navbar />
-        <main className="">
+        <main className="flex-grow">
           {children}
           <Analytics />
         </main>
