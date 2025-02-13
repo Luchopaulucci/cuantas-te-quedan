@@ -35,8 +35,16 @@ const Materia = ({ name, status, handleStatus, code }: MateriaProps) => {
             onClick={() => handleStatus("aprobada", code)}
           />
         </div>
-      ) : (
+      ) : status !== "regular" ? (
         <Button title="Revertir" onClick={() => handleStatus(null, code)} />
+      ) : (
+        <div className="flex flex-row justify-center gap-1 w-full">
+          <Button title="Revertir" onClick={() => handleStatus(null, code)} />
+          <Button
+            title="Promocionada"
+            onClick={() => handleStatus("aprobada", code)}
+          />
+        </div>
       )}
     </div>
   );
