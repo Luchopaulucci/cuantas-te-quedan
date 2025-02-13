@@ -15,8 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="w-full">
-        <div className="flex min-h-screen items-center w-[80%] min-w-[400px] mx-auto  flex-col justify-between">
+      <body className="w-full min-w-[360px]">
+        <div className="flex min-h-screen items-center w-[80%] mx-auto  flex-col justify-between">
           <Navbar />
           <main className="flex-grow">
             {children}
