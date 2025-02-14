@@ -17,11 +17,11 @@ export function ProgressCustom({
         <Progress
           value={progress + progressPassed}
           color="bg-amarillo"
-          className="h-6 absolute"
+          className="h-6 absolute rounded-full shadow-lg"
         />
         <Progress
           value={progressPassed}
-          className="h-6 absolute z-0"
+          className="h-6 absolute z-0 rounded-full shadow-lg"
           color="bg-verde1"
         />
       </div>

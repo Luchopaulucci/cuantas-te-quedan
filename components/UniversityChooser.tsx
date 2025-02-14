@@ -5,22 +5,26 @@ import { redirect } from "next/navigation";
 export default function UniversityChooser({
   name,
   code,
+  color,
 }: {
   name: string;
   code: string;
+  color: string;
 }) {
   function handleOnClick(code: string) {
     localStorage.setItem("university_choosen", code);
     redirect("/degrees");
   }
+
   return (
-    <Card key={code}>
-      <CardHeader>
-        <CardTitle>{name}</CardTitle>
-        <CardTitle>{code}</CardTitle>
+    <Card key={code} className="shadow-lg transition-transform hover:scale-105">
+      <CardHeader className={`p-4 text-white ${color} rounded-t-lg`}>
+        <CardTitle className="text-xl font-semibold">{name}</CardTitle>
       </CardHeader>
-      <CardContent className="flex-col gap-2 justify-center items-center">
-        <Button onClick={() => handleOnClick(code)}>Ver carreras</Button>
+      <CardContent className="flex flex-col items-center gap-4 p-6">
+        <Button onClick={() => handleOnClick(code)} className={color}>
+          Ver carreras
+        </Button>
       </CardContent>
     </Card>
   );
