@@ -12,6 +12,7 @@ const Materia = ({ name, status, handleStatus, code }: MateriaProps) => {
   return (
     <div
       className={`flex sm:flex-row  flex-col justify-between items-center w-full  border-black  border-solid border-[1px] rounded-full  p-3 gap-4 transition
+        shadow-md
         ${
           status === "regular"
             ? "bg-amarillo border-amarillo"
@@ -21,7 +22,7 @@ const Materia = ({ name, status, handleStatus, code }: MateriaProps) => {
         }
       `}
     >
-      <div className="flex flex-col gap-6 w-full pl-2 sm:text-left text-center">
+      <div className="flex flex-col gap-6 w-full pl-2 s m:text-left text-center">
         <h3 className="text-xl font-bold">{name}</h3>
       </div>
       {!status ? (

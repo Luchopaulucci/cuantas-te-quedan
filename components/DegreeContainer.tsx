@@ -29,31 +29,39 @@ export default function DegreeContainer({ degree }: { degree: Degree }) {
   });
   const passedOverTotal = Math.floor((passed / subjectsTotal) * 100);
   const progressOverTotal = Math.floor((regular / subjectsTotal) * 100);
+
   return (
     <div className="h-max  flex flex-col justify-center items-center">
       <div className="w-full py-5">
         <div className="w-full flex justify-center">
-          <h2 className="sm:text-4xl text-xl font-medium text-center">
-            {" "}
-            {degree.degree} - {university}
+          <h2 className="text-[clamp(1.5rem, 4vw, 3rem)] sm:text-5xl font-extrabold text-center text-gray-900 dark:text-white tracking-wide">
+            {degree.degree} <br />{" "}
+            <span className="text-blue-900">{university}</span>
           </h2>
         </div>
-        <div className="flex flex-col lg:flex-row gap-5 justify-center items-center pt-5">
-          <p className="text-2xl">Materias aprobadas: {passed} </p>
-          <p className="text-2xl">Materias regularizdas: {regular} </p>
-          <h3 className="text-2xl ">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4 text-lg sm:text-xl">
+          <p className="text-gray-700 dark:text-gray-300">
+            Materias aprobadas:{" "}
+            <span className="font-semibold text-green-600">{passed}</span>
+          </p>
+          <p className="text-gray-700 dark:text-gray-300">
+            Materias regularizadas:{" "}
+            <span className="font-semibold text-yellow-600">{regular}</span>
+          </p>
+          <h3 className="text-gray-900 dark:text-white">
             ¡Aprobaste el{" "}
-            <span className="font-bold"> {passedOverTotal}% </span>
+            <span className="font-bold text-blue-600">{passedOverTotal}%</span>{" "}
             de la carrera!
           </h3>
         </div>
+
         <div className="w-full flex justify-center flex-col  items-center gap-4 py-5">
           <ProgressCustom
             progress={progressOverTotal}
             progressPassed={passedOverTotal}
           />
           <div
-            className={`text-xl font-semibold transition-all items-center  bg-transparent flex-col flex-row justify-center`}
+            className={`text-xl font-semibold transition-all items-center  bg-transparent flex-col justify-center`}
           >
             <div>{Math.round(passedOverTotal)}% promocionado</div>
             <div>{Math.round(progressOverTotal)}% regularizado</div>
