@@ -283,6 +283,129 @@
       ]
     },
     {
+      "degree": "Tecnicatura Universitaria en Programación",
+      "plan": [
+        {
+          "year": "Primer Año",
+          "subjects": [
+            {
+              "code": 1,
+              "name": "Programación I",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 2,
+              "name": "Arquitectura y Sistemas Operativos",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 3,
+              "name": "Matemática",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 4,
+              "name": "Organización Empresarial",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 5,
+              "name": "Programación II",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 6,
+              "name": "Probabilidad y Estadística",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 7,
+              "name": "Base de Datos I",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 8,
+              "name": "Inglés I",
+              "credits": null,
+              "correlativas": []
+            }
+          ]
+        },
+        {
+          "year": "Segundo Año",
+          "subjects": [
+            {
+              "code": 9,
+              "name": "Programación III",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 10,
+              "name": "Base de Datos II",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 11,
+              "name": "Metodología de Sistemas I",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 12,
+              "name": "Inglés II",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 13,
+              "name": "Programación IV",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 14,
+              "name": "Metodología de Sistemas II",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 15,
+              "name": "Introducción al Análisis de Datos",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 16,
+              "name": "Legislación",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 17,
+              "name": "Gestión de Desarrollo de Software",
+              "credits": null,
+              "correlativas": []
+            },
+            {
+              "code": 18,
+              "name": "Trabajo Final Integrador",
+              "credits": null,
+              "correlativas": []
+            }
+          ]
+        }
+      ]
+    },
+    {
       "degree": "Ingeniería Electromecanica",
       "plan": [
         {

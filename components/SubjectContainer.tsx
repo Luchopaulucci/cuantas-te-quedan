@@ -21,7 +21,6 @@ export default function SubjectContainer({
         return subByYear;
       }
     });
-
     setSubStatus(nextSubStatus);
   }
   return (
