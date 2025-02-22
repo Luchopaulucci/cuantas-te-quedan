@@ -2,15 +2,18 @@
   "universities": [
     {
       "code": "UTN",
-      "fullName": "Universidad Tecnológica Nacional"
+      "fullName": "Universidad Tecnológica Nacional",
+      "logo": "https://i.ibb.co/r2PKKw64/ARANA-UTN-BLANCO.webp"
     },
     {
       "code": "UNCUYO",
-      "fullName": "Universidad Nacional de Cuyo"
+      "fullName": "Universidad Nacional de Cuyo",
+      "logo": "https://i.ibb.co/sJkB8C3Z/jpg-preview-rev-1.png"
     },
     {
       "code": "UM",
-      "fullName": "Universidad de Mendoza"
+      "fullName": "Universidad de Mendoza",
+      "logo": "https://i.ibb.co/2YkxxmvW/logo-universidad-de-mendoza.webp"
     }
   ]
 }

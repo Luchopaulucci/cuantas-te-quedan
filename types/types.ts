@@ -20,4 +20,5 @@ export type Degree = {
 export type University = {
   code: string;
   fullName: string;
+  logo: string;
 };

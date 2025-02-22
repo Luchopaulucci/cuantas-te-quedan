@@ -14,6 +14,11 @@ export default {
         foreground: "hsl(var(--foreground))",
         amarillo: "#FFD100",
         verde1: "#a6be47",
+        text: "#e6eaea",
+        backgroundColor: "#0a1111",
+        primaryColor: "#98cfd2",
+        secondaryColor: "#288286",
+        accentColor: "#43d6dc",
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",

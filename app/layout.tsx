@@ -15,8 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="text-center w-full min-w-[360px]">
-        <div className="mt-5 sm:max-w-6xl mx-auto px-6 py-8 shadow-xl rounded-3xl flex min-h-screen flex-col justify-between">
+      <body className="text-center w-full min-w-[360px] bg-backgroundColor">
+        <div className="flex flex-col justify-between min-h-screen">
           <Navbar />
           <main className="flex-grow">
             {children}

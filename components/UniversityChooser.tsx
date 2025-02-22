@@ -1,15 +1,16 @@
 import { Button } from "./ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { CardHeader, CardTitle } from "./ui/card";
 import { redirect } from "next/navigation";
+import Image from "next/image";
 
 export default function UniversityChooser({
   name,
   code,
-  color,
+  logo,
 }: {
   name: string;
   code: string;
-  color: string;
+  logo: string;
 }) {
   function handleOnClick(code: string) {
     localStorage.setItem("university_choosen", code);
@@ -17,15 +18,11 @@ export default function UniversityChooser({
   }
 
   return (
-    <Card key={code} className="shadow-lg transition-transform hover:scale-105">
-      <CardHeader className={`p-4 text-white ${color} rounded-t-lg`}>
+    <Button key={code} onClick={() => handleOnClick(code)} className="flex flex-col justify-between items-center p-5 gap-2 bg-secondaryColor shadow-lg shadow-accentColor/50 transition duration-300 hover:scale-105 h-full">
+      <Image src={logo} width={45} height={45} alt="Logo Universidad" />
+      <CardHeader className="text-white">
         <CardTitle className="text-xl font-semibold">{name}</CardTitle>
       </CardHeader>
-      <CardContent className="flex flex-col items-center gap-4 p-6">
-        <Button onClick={() => handleOnClick(code)} className={color}>
-          Ver carreras
-        </Button>
-      </CardContent>
-    </Card>
+    </Button>
   );
 }
