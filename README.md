@@ -1,15 +1,10 @@
 # ¿Cuántas te quedan?
 ## Seguimiento de materias
 
-Este proyecto es una página web desarrollada por y para estudiantes de la UTN FRM para ayudar a visualizar cuántas materias les quedan por cursar en la carrera, viendo cuáles tienen aprobadas, cuáles regulares y otorgando un porcentaje de la carrera completada 🦾. Actualmente, la plataforma permite consultar el avance en la carrera de **Ingeniería en Sistemas de Información**.
-
-## 🚀 Características
-- Visualización de materias aprobadas y pendientes.
-- Interfaz sencilla y fácil de usar.
-- Soporte inicial para la carrera de **Ingeniería en Sistemas de Información**.
+Este proyecto es una página web desarrollada por estudiantes de la UTN FRM para ayudar a visualizar cuántas materias les quedan por cursar en la carrera, viendo cuáles tienen aprobadas, cuáles regulares y otorgando un porcentaje de la carrera completada 🦾. Actualmente, la plataforma permite consultar el avance de distintas carreras de la Universidad Nacional Tecnológica (UTN), Universidad Nacional de Cuyo (UNCUYO) y Universidad de Mendoza.
 
 ## 🔮 Próximamente
-- Soporte para **todas las carreras** de la facultad.
+- Guardar estado de las materias. (Actualmente se pierden los cambios al frecescar)
 - Inclusión de **materias electivas**.
 - Mejora en la experiencia de usuario y optimización del sistema.
 
