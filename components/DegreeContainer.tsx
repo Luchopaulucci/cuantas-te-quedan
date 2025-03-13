@@ -14,7 +14,6 @@ export default function DegreeContainer({ degree }: { degree: Degree }) {
 
   let passed = 0;
   let regular = 0;
-
   const yearsLength = degree.plan.map((year) => year.subjects.length);
   const subjectsTotal = yearsLength.reduce((prev, curr) => prev + curr);
 
@@ -27,9 +26,9 @@ export default function DegreeContainer({ degree }: { degree: Degree }) {
       }
     });
   });
+
   const passedOverTotal = Math.floor((passed / subjectsTotal) * 100);
   const progressOverTotal = Math.floor((regular / subjectsTotal) * 100);
-
   return (
     <div className="h-max  flex flex-col justify-center items-center">
       <div className="w-full py-5">
@@ -39,20 +38,30 @@ export default function DegreeContainer({ degree }: { degree: Degree }) {
             <span className="text-blue-900">{university}</span>
           </h2>
         </div>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4 text-lg sm:text-xl">
-          <p className="text-gray-700 dark:text-gray-300">
-            Materias aprobadas:{" "}
-            <span className="font-semibold text-green-600">{passed}</span>
-          </p>
-          <p className="text-gray-700 dark:text-gray-300">
-            Materias regularizadas:{" "}
-            <span className="font-semibold text-yellow-600">{regular}</span>
-          </p>
-          <h3 className="text-gray-900 dark:text-white">
-            ¡Aprobaste el{" "}
-            <span className="font-bold text-blue-600">{passedOverTotal}%</span>{" "}
-            de la carrera!
-          </h3>
+        <div className="flex flex-col gap-4 justify-center items-center pt-4 text-lg sm:text-xl">
+          <div className="flex flex-row gap-5">
+            <p className="text-gray-700">Total: {subjectsTotal}</p>
+            <p className="text-gray-700 dark:text-gray-300">
+              Aprobadas:{" "}
+              <span className="font-semibold text-green-600">{passed}</span>
+            </p>
+            <p className="text-gray-700 dark:text-gray-300">
+              Regularizadas:{" "}
+              <span className="font-semibold text-yellow-600">{regular}</span>
+            </p>
+          </div>
+          <div className="flex flex-col gap-5">
+            <h3 className="text-gray-900  dark:text-white">
+              ¡Aprobaste el{" "}
+              <span className="font-bold text-blue-600">
+                {passedOverTotal}%
+              </span>{" "}
+              de la carrera!
+            </h3>
+            <p className="font-bold">
+              Te quedan por aprobar {subjectsTotal - passed} materias
+            </p>
+          </div>
         </div>
 
         <div className="w-full flex justify-center flex-col  items-center gap-4 py-5">
