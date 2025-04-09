@@ -28,7 +28,8 @@ export default function Home() {
 
   // Loading data from localstorage
   useEffect(() => {
-    if (!storedValue) return;
+    if (!storedValue || !storedValue.universityCode || !storedValue.degreeCode)
+      return;
 
     setUniversityCode(storedValue.universityCode);
     setDegreeCode(storedValue.degreeCode);
