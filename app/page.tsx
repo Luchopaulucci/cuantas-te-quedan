@@ -164,7 +164,7 @@ export default function Home() {
                   : "bg-slate-300 text-slate-500"
               }`}
             >
-              Continue <ArrowRight className="ml-2 h-4 w-4" />
+              Continuar <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           )}
           {/* TODO: Guardar en localstorage */}
