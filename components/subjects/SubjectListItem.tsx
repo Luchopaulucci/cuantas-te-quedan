@@ -1,6 +1,5 @@
 import { SubjectStatus } from "@/utils/constants";
 import { Button } from "../Button";
-import { BookOpen } from "lucide-react";
 
 type SubjectListItemProps = {
   name: string;

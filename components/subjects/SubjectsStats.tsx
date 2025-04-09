@@ -1,13 +1,6 @@
 import React from "react";
-import References from "../ui/references";
 import { ProgressCustom } from "../ui/progress-custom";
-import {
-  Award,
-  BookOpen,
-  ChartNoAxesCombined,
-  Clock,
-  TrendingUp,
-} from "lucide-react";
+import { Award, BookOpen, Clock, TrendingUp } from "lucide-react";
 import StatBadge from "../ui/stat-badge";
 
 interface SubjectsStatProps {

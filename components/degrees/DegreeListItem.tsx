@@ -1,5 +1,5 @@
 import { RadioGroupItem } from "@radix-ui/react-radio-group";
-import { BookOpen, Check, School } from "lucide-react";
+import { BookOpen, Check } from "lucide-react";
 
 interface DegreeListItemProps {
   name: string;
