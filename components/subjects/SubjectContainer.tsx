@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useState } from "react";
+import { Dispatch, SetStateAction } from "react";
 import useUniversityDegreesSubjects from "@/hooks/useUniversityDegreesSubjects";
 import SubjectsStats from "./SubjectsStats";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@radix-ui/react-tabs";
