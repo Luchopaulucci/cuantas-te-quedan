@@ -20,7 +20,11 @@ export default function Home() {
     Record<string, SubjectStatus | null>
   >({});
 
-  const [storedValue, setSubjects] = useLocalStorage("subjects", {
+  const [storedValue, setSubjects] = useLocalStorage<{
+    universityCode: string | null;
+    degreeCode: string | null;
+    subjectStatus: Record<string, SubjectStatus | null>;
+  }>("subjects", {
     universityCode: null,
     degreeCode: null,
     subjectStatus: {},
@@ -168,20 +172,23 @@ export default function Home() {
             </Button>
           )}
           {/* TODO: Guardar en localstorage */}
-          {currentStep === steps.length && (
-            <Button
-              onClick={() => {
-                setSubjects({
-                  universityCode,
-                  degreeCode,
-                  subjectStatus,
-                });
-              }}
-              className={`rounded-xl px-5 py-6 bg-gradient-to-r from-cyan-600 to-sky-600 hover:from-cyan-700 hover:to-sky-700`}
-            >
-              Guardar ✨
-            </Button>
-          )}
+          {currentStep === steps.length &&
+            universityCode &&
+            degreeCode &&
+            subjectStatus && (
+              <Button
+                onClick={() => {
+                  setSubjects({
+                    universityCode,
+                    degreeCode,
+                    subjectStatus,
+                  });
+                }}
+                className={`rounded-xl px-5 py-6 bg-gradient-to-r from-cyan-600 to-sky-600 hover:from-cyan-700 hover:to-sky-700`}
+              >
+                Guardar ✨
+              </Button>
+            )}
         </CardFooter>
       </Card>
     </section>
