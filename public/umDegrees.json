@@ -582,6 +582,401 @@
         "max_recursadas": 2,
         "final_year_regulation": "Adecuarse a la resolución respectiva"
       }
+    },
+    {
+      "degree": "Ingeniería en Informática",
+      "plan": [
+        {
+          "year": "Primer Año",
+          "subjects": [
+            {
+              "code": 1,
+              "name": "Sistemas de Representación",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 2,
+              "name": "Química General",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 3,
+              "name": "Cálculo I",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 4,
+              "name": "Cálculo II",
+              "regimen": "2° Semestre",
+              "correlativas": [3],
+              "credits": 3
+            },
+            {
+              "code": 5,
+              "name": "Tecnología Ciencia y Sociedad",
+              "regimen": "2° Semestre",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 6,
+              "name": "Análisis de Sistemas I",
+              "regimen": "2° Semestre",
+              "correlativas": [],
+              "credits": 6
+            },
+            {
+              "code": 7,
+              "name": "Álgebra y Geometría Analítica",
+              "regimen": "Anual",
+              "correlativas": [],
+              "credits": 5
+            },
+            {
+              "code": 8,
+              "name": "Inglés Técnico",
+              "regimen": "Anual",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 9,
+              "name": "Informática I",
+              "regimen": "Anual",
+              "correlativas": [],
+              "credits": 7
+            }
+          ],
+          "totalCredits": 38
+        },
+        {
+          "year": "Segundo Año",
+          "subjects": [
+            {
+              "code": 10,
+              "name": "Análisis de Sistemas II",
+              "regimen": "1° Semestre",
+              "correlativas": [6],
+              "credits": 4
+            },
+            {
+              "code": 11,
+              "name": "Arquitectura de Computadoras",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 12,
+              "name": "Diseño de Bases de Datos I",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 5
+            },
+            {
+              "code": 13,
+              "name": "Matemática Discreta Y Diseño Lógico",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 14,
+              "name": "Redes de Datos",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 6
+            },
+            {
+              "code": 15,
+              "name": "Álgebra Lineal",
+              "regimen": "2° Semestre",
+              "correlativas": [7],
+              "credits": 3
+            },
+            {
+              "code": 16,
+              "name": "Estadística Aplicada I",
+              "regimen": "2° Semestre",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 17,
+              "name": "Física",
+              "regimen": "2° Semestre",
+              "correlativas": [],
+              "credits": 5
+            },
+            {
+              "code": 18,
+              "name": "Sistemas Operativos",
+              "regimen": "2° Semestre",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 19,
+              "name": "Computación I",
+              "regimen": "Anual",
+              "correlativas": [9],
+              "credits": 6
+            }
+          ],
+          "totalCredits": 43,
+          "requirementsToEnroll": {
+            "complete_previous_year_credits": 12
+          }
+        },
+        {
+          "year": "Tercer Año",
+          "subjects": [
+            {
+              "code": 20,
+              "name": "Análisis Numérico",
+              "regimen": "1° Semestre",
+              "correlativas": [15],
+              "credits": 5
+            },
+            {
+              "code": 21,
+              "name": "Autómatas y Gramáticas",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 22,
+              "name": "Estadística Aplicada II",
+              "regimen": "1° Semestre",
+              "correlativas": [16],
+              "credits": 3
+            },
+            {
+              "code": 23,
+              "name": "Organización",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 24,
+              "name": "Diseño de Bases de Datos II",
+              "regimen": "2° Semestre",
+              "correlativas": [12],
+              "credits": 5
+            },
+            {
+              "code": 25,
+              "name": "Economía",
+              "regimen": "2° Semestre",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 26,
+              "name": "Diseño de Sistemas",
+              "regimen": "2° Semestre",
+              "correlativas": [10],
+              "credits": 5
+            },
+            {
+              "code": 27,
+              "name": "Comunicación de Datos",
+              "regimen": "2° Semestre",
+              "correlativas": [14],
+              "credits": 3
+            },
+            {
+              "code": 28,
+              "name": "Programación I",
+              "regimen": "Anual",
+              "correlativas": [19],
+              "credits": 4
+            },
+            {
+              "code": 29,
+              "name": "Computación II",
+              "regimen": "Anual",
+              "correlativas": [19],
+              "credits": 6
+            }
+          ],
+          "totalCredits": 40,
+          "requirementsToEnroll": {
+            "complete_previous_year_credits": 38
+          }
+        },
+        {
+          "year": "Cuarto Año",
+          "subjects": [
+            {
+              "code": 30,
+              "name": "Ingeniería de Software",
+              "regimen": "1° Semestre",
+              "correlativas": [26],
+              "credits": 5
+            },
+            {
+              "code": 31,
+              "name": "Seguridad Informática I",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 5
+            },
+            {
+              "code": 32,
+              "name": "Teleinformática",
+              "regimen": "1° Semestre",
+              "correlativas": [27],
+              "credits": 5
+            },
+            {
+              "code": 33,
+              "name": "Trabajo Integrador Final I",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 34,
+              "name": "Formulación y Evaluación de Proyectos",
+              "regimen": "2° Semestre",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 35,
+              "name": "Ingeniería de Software Aplicada",
+              "regimen": "2° Semestre",
+              "correlativas": [30],
+              "credits": 4
+            },
+            {
+              "code": 36,
+              "name": "Inteligencia Artificial",
+              "regimen": "2° Semestre",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 37,
+              "name": "Investigación Operativa",
+              "regimen": "2° Semestre",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 38,
+              "name": "Trabajo Integrador Final II",
+              "regimen": "2° Semestre",
+              "correlativas": [33],
+              "credits": 3
+            },
+            {
+              "code": 39,
+              "name": "Programación II",
+              "regimen": "Anual",
+              "correlativas": [28],
+              "credits": 6
+            }
+          ],
+          "totalCredits": 43,
+          "requirementsToEnroll": {
+            "complete_previous_year_credits": 90
+          }
+        },
+        {
+          "year": "Quinto Año",
+          "subjects": [
+            {
+              "code": 40,
+              "name": "Aseguramiento de Calidad de Software",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 41,
+              "name": "Gestión de Calidad y Medio Ambiente",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 42,
+              "name": "Higiene y Seguridad del Trabajo",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 43,
+              "name": "Modelos y Simulación",
+              "regimen": "1° Semestre",
+              "correlativas": [],
+              "credits": 4
+            },
+            {
+              "code": 44,
+              "name": "Trabajo Integrador Final III",
+              "regimen": "1° Semestre",
+              "correlativas": [38],
+              "credits": 3
+            },
+            {
+              "code": 45,
+              "name": "Seguridad Informática II",
+              "regimen": "2° Semestre",
+              "correlativas": [31],
+              "credits": 4
+            },
+            {
+              "code": 46,
+              "name": "Ingeniería, Derecho y Ética Profesional",
+              "regimen": "2° Semestre",
+              "correlativas": [],
+              "credits": 3
+            },
+            {
+              "code": 47,
+              "name": "Auditoría de Sistemas",
+              "regimen": "2° Semestre",
+              "correlativas": [31],
+              "credits": 4
+            },
+            {
+              "code": 48,
+              "name": "Planeamiento y Gestión de Empresas",
+              "regimen": "2° Semestre",
+              "correlativas": [],
+              "credits": 5
+            },
+            {
+              "code": 49,
+              "name": "Trabajo Integrador Final IV",
+              "regimen": "2° Semestre",
+              "correlativas": [44],
+              "credits": 3
+            }
+          ],
+          "totalCredits": 36,
+          "requirementsToEnroll": {
+            "complete_previous_year_credits": 130
+          }
+        }
+      ],
+      "totalCredits": 200,
+      "additional_requirements": {
+        "max_recursadas": 2,
+        "final_year_regulation": "Adecuarse a la resolución respectiva"
+      }
     }
   ]
 }
