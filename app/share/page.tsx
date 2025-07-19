@@ -65,13 +65,15 @@ export default function SharePage() {
   const downloadScreenshot = () => takeScreenShot(ref.current).then(download);
   console.log(storedValue);
   return (
-    <div className="flex flex-col pt-4 gap-3 items-center justify-center min-h-screen">
-      <Button className="w-24  bg-sky-600" onClick={downloadScreenshot}>
+    <div className="flex flex-col gap-3 items-center justify-center ">
+      <Button
+        className="absolute top-4 w-24  bg-sky-600"
+        onClick={downloadScreenshot}
+      >
         Compartir
       </Button>
-
       <div
-        className="flex flex-col items-center justify-center p-1 m-0"
+        className="flex flex-col items-center justify-center p-1 m-0 min-h-screen"
         ref={ref}
       >
         <div className="flex flex-col w-[90%] justify-center gap-1">
