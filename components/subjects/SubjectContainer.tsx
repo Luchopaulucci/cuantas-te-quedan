@@ -8,7 +8,7 @@ import { SubjectStatus } from "@/utils/constants";
 import { Button } from "../Button";
 import { useSubjectsStatistics } from "@/hooks/useSubjectsStatistics";
 
-interface SubjectContainerProps {
+export interface SubjectContainerProps {
   universityCode: string;
   degreeCode: string;
   subjectStatus: Record<string, SubjectStatus | null>;

@@ -119,78 +119,81 @@ export default function Home() {
     (LucideIcons["Dot"] as React.FC<LucideIcons.LucideProps>);
 
   return (
-    <section>
-      <StepCounter
-        currentStep={currentStep}
-        steps={steps.map((step) => ({ title: step.title, icon: step.icon }))}
-      />
+    <>
+      <Header />
+      <section>
+        <StepCounter
+          currentStep={currentStep}
+          steps={steps.map((step) => ({ title: step.title, icon: step.icon }))}
+        />
 
-      <Card className="rounded-3xl bg-white shadow-lg">
-        <CardContent>
-          <div className="flex gap-4 items-center py-6 px-8">
-            <div
-              className={`
+        <Card className="rounded-3xl bg-white shadow-lg">
+          <CardContent>
+            <div className="flex gap-4 items-center py-6 px-8">
+              <div
+                className={`
                   w-10 h-10 rounded-xl flex items-center justify-center bg-sky-100 text-sky-600
                 `}
-            >
-              <Icon className="h-7 w-7" />
-            </div>
-
-            <div className="flex flex-col text-start justify-center">
-              <h2 className="text-2xl font-bold text-slate-800">
-                {steps[currentStep - 1].title}
-              </h2>
-              <p>{steps[currentStep - 1].description}</p>
-            </div>
-          </div>
-          {steps[currentStep - 1].children}
-        </CardContent>
-        <CardFooter className="flex justify-between mt-8 bg-slate-50 w-full rounded-b-3xl p-6">
-          <Button
-            variant="outline"
-            disabled={currentStep === 1}
-            onClick={() => {
-              if (currentStep === 1) return;
-              setCurrentStep((prev) => prev - 1);
-            }}
-            className="rounded-xl px-5 py-6 text-slate-700 border-slate-300 hover:bg-slate-100"
-          >
-            <ArrowLeft className="w-4 h-4 mr-2" /> Volver
-          </Button>
-
-          {currentStep < steps.length && (
-            <Button
-              onClick={goToNextStep}
-              disabled={!canProceedToNextStep()}
-              className={`rounded-xl px-5 py-6 ${
-                canProceedToNextStep()
-                  ? "bg-gradient-to-r from-cyan-600 to-sky-600 hover:from-cyan-700 hover:to-sky-700"
-                  : "bg-slate-300 text-slate-500"
-              }`}
-            >
-              Continuar <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-          )}
-          {/* TODO: Guardar en localstorage */}
-          {currentStep === steps.length &&
-            universityCode &&
-            degreeCode &&
-            subjectStatus && (
-              <Button
-                onClick={() => {
-                  setSubjects({
-                    universityCode,
-                    degreeCode,
-                    subjectStatus,
-                  });
-                }}
-                className={`rounded-xl px-5 py-6 bg-gradient-to-r from-cyan-600 to-sky-600 hover:from-cyan-700 hover:to-sky-700`}
               >
-                Guardar ✨
+                <Icon className="h-7 w-7" />
+              </div>
+
+              <div className="flex flex-col text-start justify-center">
+                <h2 className="text-2xl font-bold text-slate-800">
+                  {steps[currentStep - 1].title}
+                </h2>
+                <p>{steps[currentStep - 1].description}</p>
+              </div>
+            </div>
+            {steps[currentStep - 1].children}
+          </CardContent>
+          <CardFooter className="flex justify-between mt-8 bg-slate-50 w-full rounded-b-3xl p-6">
+            <Button
+              variant="outline"
+              disabled={currentStep === 1}
+              onClick={() => {
+                if (currentStep === 1) return;
+                setCurrentStep((prev) => prev - 1);
+              }}
+              className="rounded-xl px-5 py-6 text-slate-700 border-slate-300 hover:bg-slate-100"
+            >
+              <ArrowLeft className="w-4 h-4 mr-2" /> Volver
+            </Button>
+
+            {currentStep < steps.length && (
+              <Button
+                onClick={goToNextStep}
+                disabled={!canProceedToNextStep()}
+                className={`rounded-xl px-5 py-6 ${
+                  canProceedToNextStep()
+                    ? "bg-gradient-to-r from-cyan-600 to-sky-600 hover:from-cyan-700 hover:to-sky-700"
+                    : "bg-slate-300 text-slate-500"
+                }`}
+              >
+                Continuar <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             )}
-        </CardFooter>
-      </Card>
-    </section>
+            {/* TODO: Guardar en localstorage */}
+            {currentStep === steps.length &&
+              universityCode &&
+              degreeCode &&
+              subjectStatus && (
+                <Button
+                  onClick={() => {
+                    setSubjects({
+                      universityCode,
+                      degreeCode,
+                      subjectStatus,
+                    });
+                  }}
+                  className={`rounded-xl px-5 py-6 bg-gradient-to-r from-cyan-600 to-sky-600 hover:from-cyan-700 hover:to-sky-700`}
+                >
+                  Guardar ✨
+                </Button>
+              )}
+          </CardFooter>
+        </Card>
+      </section>
+    </>
   );
 }

@@ -24,7 +24,6 @@ export default function RootLayout({
         <main
           className={`${montserrat.className} container mx-auto max-w-5xl px-4`}
         >
-          <Header />
           {children}
           <Analytics />
           <Footer />
