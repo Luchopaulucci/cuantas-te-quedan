@@ -25,7 +25,6 @@ export default function RootLayout({
         >
           {children}
           <Analytics />
-          <Footer />
         </main>
       </body>
     </html>

@@ -13,6 +13,7 @@ import { SubjectStatus } from "@/utils/constants";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import Header from "@/components/layout/Header";
 import Link from "next/link";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   const [currentStep, setCurrentStep] = useState(1);
@@ -200,6 +201,7 @@ export default function Home() {
           </CardFooter>
         </Card>
       </section>
+      <Footer />
     </>
   );
 }

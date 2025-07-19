@@ -10,6 +10,7 @@ import { createRef, useEffect, useState } from "react";
 import { useScreenshot, createFileName } from "use-react-screenshot";
 import { useUniversities } from "@/hooks/useUniversities";
 import HeaderForScreenshot from "@/components/layout/HeaderScreenshot";
+import Footer from "@/components/layout/Footer";
 export default function SharePage() {
   // Loading data from localstorage
   const [storedValue] = useLocalStorage("subjects", {
@@ -64,7 +65,7 @@ export default function SharePage() {
   const downloadScreenshot = () => takeScreenShot(ref.current).then(download);
   console.log(storedValue);
   return (
-    <div className="flex flex-col pt-4 gap-3 items-center justify-center">
+    <div className="flex flex-col pt-4 gap-3 items-center justify-center min-h-screen">
       <Button className="w-24  bg-sky-600" onClick={downloadScreenshot}>
         Compartir
       </Button>
@@ -87,6 +88,7 @@ export default function SharePage() {
           />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
