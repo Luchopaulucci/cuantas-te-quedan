@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
-import Footer from "@/components/layout/Footer";
 import { Analytics } from "@vercel/analytics/next";
 export const metadata: Metadata = {
   title: "Cuántas te quedan?",
