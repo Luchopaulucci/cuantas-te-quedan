@@ -25,12 +25,12 @@ interface UniversitiesData {
 }
 
 const useUniversityDegreesSubjects = (
-  universityCode: string,
-  degreeCode: string
+  universityCode: string | null,
+  degreeCode: string | null
 ) => {
   const [plans, setPlans] = useState<Plan[]>([]);
   const [error, setError] = useState<string | null>(null);
-
+  if (!universityCode || !degreeCode) return { plans: [] };
   useEffect(() => {
     const fetchPlan = async () => {
       try {

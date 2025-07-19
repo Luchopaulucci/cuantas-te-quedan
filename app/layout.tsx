@@ -8,7 +8,6 @@ export const metadata: Metadata = {
 };
 
 import { Montserrat } from "next/font/google";
-import Header from "@/components/layout/Header";
 
 const montserrat = Montserrat({ subsets: ["latin", "latin-ext"] });
 

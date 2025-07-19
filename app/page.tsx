@@ -11,6 +11,7 @@ import { DegreesList } from "@/components/degrees/DegreesList";
 import DegreeContainer from "@/components/subjects/SubjectContainer";
 import { SubjectStatus } from "@/utils/constants";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
+import Header from "@/components/layout/Header";
 
 export default function Home() {
   const [currentStep, setCurrentStep] = useState(1);
