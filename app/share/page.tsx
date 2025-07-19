@@ -47,8 +47,12 @@ export default function SharePage() {
     const a = document.createElement("a");
     a.href = image;
     a.download = createFileName(extension, name);
+    const file = dataUrlToFile(image);
     if ("canShare" in navigator) {
-      await navigator.share({ text: "Testing Cuantas Te quedan" });
+      await navigator.share({
+        text: "Testing Cuantas Te quedan",
+        files: [file],
+      });
     } else {
       a.click();
     }
@@ -82,4 +86,21 @@ export default function SharePage() {
       </div>
     </div>
   );
+}
+export function dataUrlToFile(dataUrl: string, filename = "image.png"): File {
+  // 1. Split "data:[<mime>][;base64],<data>"
+  const [header, base64] = dataUrl.split(",");
+  const mimeMatch = header.match(/data:(.*?)(;base64)?$/);
+  const mime = mimeMatch ? mimeMatch[1] : "application/octet-stream";
+
+  // 2. Decode base‑64 → binary string
+  const binary = atob(base64);
+
+  // 3. Binary string → Uint8Array
+  const len = binary.length;
+  const bytes = new Uint8Array(len);
+  for (let i = 0; i < len; i++) bytes[i] = binary.charCodeAt(i);
+
+  // 4. Build Blob/File
+  return new File([bytes], filename, { type: mime });
 }
