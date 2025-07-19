@@ -46,8 +46,9 @@ export default function SharePage() {
     console.log(image);
     const a = document.createElement("a");
     a.href = image;
-    a.download = createFileName(extension, name);
-    const file = dataUrlToFile(image);
+    const fileName = createFileName(extension, name);
+    a.download = fileName;
+    const file = dataUrlToFile(image, fileName);
     if ("canShare" in navigator) {
       await navigator.share({
         text: "Testing Cuantas Te quedan",
@@ -87,7 +88,7 @@ export default function SharePage() {
     </div>
   );
 }
-export function dataUrlToFile(dataUrl: string, filename = "image.png"): File {
+function dataUrlToFile(dataUrl: string, filename = "image.png"): File {
   // 1. Split "data:[<mime>][;base64],<data>"
   const [header, base64] = dataUrl.split(",");
   const mimeMatch = header.match(/data:(.*?)(;base64)?$/);
