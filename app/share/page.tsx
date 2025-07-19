@@ -51,7 +51,8 @@ export default function SharePage() {
     const file = dataUrlToFile(image, fileName);
     if ("canShare" in navigator) {
       await navigator.share({
-        text: "Testing Cuantas Te quedan",
+        title: "¿Cuántas Te quedan?",
+        url: "https://cuantas-te-quedan.vercel.app",
         files: [file],
       });
     } else {
