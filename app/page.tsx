@@ -12,6 +12,7 @@ import DegreeContainer from "@/components/subjects/SubjectContainer";
 import { SubjectStatus } from "@/utils/constants";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import Header from "@/components/layout/Header";
+import Link from "next/link";
 
 export default function Home() {
   const [currentStep, setCurrentStep] = useState(1);
@@ -122,6 +123,10 @@ export default function Home() {
   return (
     <>
       <Header />
+      <Button className="md:absolute md:top-10 md:left-5 mb-5  bg-sky-600">
+        <Link href={"/share"}>Compartir</Link>
+      </Button>
+
       <section>
         <StepCounter
           currentStep={currentStep}
