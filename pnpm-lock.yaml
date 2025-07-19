@@ -38,6 +38,9 @@ importers:
       drizzle-orm:
         specifier: ^0.39.1
         version: 0.39.1(@types/pg@8.11.11)(@types/react@19.0.8)(pg@8.13.1)(react@19.0.0)
+      html2canvas:
+        specifier: ^1.4.1
+        version: 1.4.1
       lucide-react:
         specifier: ^0.474.0
         version: 0.474.0(react@19.0.0)
