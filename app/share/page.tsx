@@ -87,8 +87,9 @@ export default function SharePage() {
             subjectsTotal={subjectsTotal}
           />
         </div>
+
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
