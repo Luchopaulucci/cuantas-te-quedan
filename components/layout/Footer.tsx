@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="mt-4 py-8">
+    <footer className="mt-4 py-3">
       <p className="text-md font-medium text-slate-800">
         Creado por alumnos de la{" "}
         <span className="font-bold text-cyan-500">UTN de Mendoza</span>.

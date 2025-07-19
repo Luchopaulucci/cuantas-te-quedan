@@ -18,26 +18,8 @@ export default function SubjectsStats({
   return (
     <>
       {/* Stats list */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
-        <StatBadge
-          title="Total"
-          value={subjectsTotal}
-          icon={<BookOpen className="h-10 w-10" />}
-        />
-        <StatBadge
-          title="Aprobadas"
-          value={passed}
-          color="success"
-          icon={<Award className="h-10 w-10" />}
-        />
-        <StatBadge
-          title="Regularizadas"
-          value={regular}
-          color="warning"
-          icon={<Clock className="h-10 w-10" />}
-        />
-      </div>
-      <div className="bg-gradient-to-br from-cyan-500 to-sky-600 rounded-xl p-6 mt-4">
+
+      <div className="bg-gradient-to-br from-cyan-500 to-sky-600 rounded-xl p-6  mt-4">
         <div className="flex flex-row items-center justify-start gap-2">
           <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-white/20 text-white">
             <TrendingUp className="h-6 w-6" />
@@ -61,15 +43,24 @@ export default function SubjectsStats({
             progressPassed={passedOverTotal}
           />
         </div>
-
-        {/* References */}
-        <div className="flex justify-center mt-4">
-          {/* <References
-            references={[
-              { title: "Aprobadas", color: "green" },
-              { title: "Regularizadas", color: "yellow" },
-            ]}
-          /> */}
+        <div className="grid grid-cols-1 md:grid-cols-3  md:gap-4 gap-2 pt-4 text-center">
+          <StatBadge
+            title="Total"
+            value={subjectsTotal}
+            icon={<BookOpen className="h-10 w-10" />}
+          />
+          <StatBadge
+            title="Aprobadas"
+            value={passed}
+            color="success"
+            icon={<Award className="h-10 w-10" />}
+          />
+          <StatBadge
+            title="Regularizadas"
+            value={regular}
+            color="warning"
+            icon={<Clock className="h-10 w-10" />}
+          />
         </div>
       </div>
     </>
