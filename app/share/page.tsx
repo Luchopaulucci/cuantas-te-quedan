@@ -36,6 +36,7 @@ export default function SharePage() {
     quality: 1.0,
   });
   const ref = createRef<HTMLDivElement>();
+  //@ts-expect-error can be null
   const { plans } = useUniversityDegreesSubjects(universityCode, degreeCode);
   const { subjectsTotal, subjectsPassed, subjectsRegular } =
     useSubjectsStatistics(subjectStatus, plans);
