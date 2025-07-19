@@ -27,7 +27,7 @@ export default function StatBadge({
     >
       <div className="flex flex-col items-start">
         <h3 className="text-md font-medium">{title}</h3>
-        <span className="text-5xl font-extrabold">{value}</span>
+        <span className="text-3xl md:text-5xl font-extrabold">{value}</span>
       </div>
       <div className="flex flex-col items-center justify-center">{icon}</div>
     </div>
