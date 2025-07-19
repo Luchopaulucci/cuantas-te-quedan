@@ -49,10 +49,10 @@ export default function SubjectsStats({
         {/* Progress bar */}
         <div className="">
           <div className="flex justify-between items-end mt-4">
-            <p className="text-md sm:text-lg font-medium text-cyan-100 text-center mt-2">
+            <p className="text-md sm:text-lg font-medium text-cyan-100 pb-3 text-center mt-2">
               {subjectsTotal - passed} materias para recibirte
             </p>
-            <span className="block text-white font-bold text-3xl">
+            <span className="block text-white font-bold text-3xl pb-3">
               {passedOverTotal}%
             </span>
           </div>
