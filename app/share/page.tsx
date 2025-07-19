@@ -6,6 +6,7 @@ import { useSubjectsStatistics } from "@/hooks/useSubjectsStatistics";
 import useUniversityDegreesSubjects from "@/hooks/useUniversityDegreesSubjects";
 import { SubjectStatus } from "@/utils/constants";
 import { createRef, useEffect, useState } from "react";
+//@ts-expect-error error
 import { useScreenshot, createFileName } from "use-react-screenshot";
 import { useUniversities } from "@/hooks/useUniversities";
 import HeaderForScreenshot from "@/components/layout/HeaderScreenshot";
