@@ -1,0 +1,244 @@
+{
+  "UNLaM": [
+    {
+      "degree": "Contador Público",
+      "plan": [
+        {
+          "year": "Primer Año",
+          "subjects": [
+            {
+              "code": 1,
+              "name": "Matemática I",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 2,
+              "name": "Contabilidad Básica",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 3,
+              "name": "Derecho Público",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 4,
+              "name": "Introducción al Conocimiento Científico",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 5,
+              "name": "Historia Económica Social y Contemporánea",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            },
+            {
+              "code": 6,
+              "name": "Administración General",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": []
+            }
+          ]
+        },
+        {
+          "year": "Segundo Año",
+          "subjects": [
+            {
+              "code": 7,
+              "name": "Matemática II",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [1]
+            },
+            {
+              "code": 8,
+              "name": "Técnicas de Valuación",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [2]
+            },
+            {
+              "code": 9,
+              "name": "Derecho Civil",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [3]
+            },
+            {
+              "code": 10,
+              "name": "Economía General",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [1, 5]
+            },
+            {
+              "code": 11,
+              "name": "Derecho Comercial I",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [9]
+            },
+            {
+              "code": 12,
+              "name": "Macroeconomía",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [7, 10]
+            }
+          ]
+        },
+        {
+          "year": "Tercer Año",
+          "subjects": [
+            {
+              "code": 13,
+              "name": "Estadística",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [1]
+            },
+            {
+              "code": 14,
+              "name": "Elementos de Costos",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [8]
+            },
+            {
+              "code": 15,
+              "name": "Psicosociología de las Organizaciones",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [4, 6]
+            },
+            {
+              "code": 16,
+              "name": "Derecho Laboral y Previsional",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [9]
+            },
+            {
+              "code": 17,
+              "name": "Estados Contables",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [14, 11]
+            },
+            {
+              "code": 18,
+              "name": "Matemática Financiera",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [1]
+            },
+            {
+              "code": 19,
+              "name": "Estructura Económica Argentina",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [12]
+            }
+          ]
+        },
+        {
+          "year": "Cuarto Año",
+          "subjects": [
+            {
+              "code": 20,
+              "name": "Sistemas de Información",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [6]
+            },
+            {
+              "code": 21,
+              "name": "Derecho Comercial II",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [11]
+            },
+            {
+              "code": 22,
+              "name": "Finanzas Públicas",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [3, 13, 12]
+            },
+            {
+              "code": 23,
+              "name": "Administración Financiera",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [20, 18]
+            },
+            {
+              "code": 24,
+              "name": "Costos y Actividades Especiales",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [7, 17]
+            },
+            {
+              "code": 25,
+              "name": "Teoría y Técnica Impositiva I",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [17, 22]
+            },
+            {
+              "code": 26,
+              "name": "Contabilidad y Administración Pública",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [20, 17, 19, 22]
+            }
+          ]
+        },
+        {
+          "year": "Quinto Año",
+          "subjects": [
+            {
+              "code": 27,
+              "name": "Teoría y Técnica Impositiva II",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [17, 22]
+            },
+            {
+              "code": 28,
+              "name": "Auditoría",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [23, 21, 24]
+            },
+            {
+              "code": 29,
+              "name": "Seminario de Práctica Profesional Administrativo Contable",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [15, 16, 25, 26, 27, 28]
+            },
+            {
+              "code": 30,
+              "name": "Seminario de Práctica Profesional Jurídico Contable",
+              "regimen": "Cuatrimestral",
+              "correlativas_regular": [],
+              "correlativas_aprobada": [15, 16, 25, 26, 27, 28]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

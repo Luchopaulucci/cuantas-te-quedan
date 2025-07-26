@@ -30,7 +30,7 @@ export type University = {
   fullName: string;
 };
 
-export type UniversityKey = "UTN" | "UNC" | "UM";
+export type UniversityKey = "UTN" | "UNC" | "UM" | "UNLaM";
 
 // Steps types
 export interface Step {

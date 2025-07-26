@@ -11,6 +11,10 @@
     {
       "code": "UM",
       "fullName": "Universidad de Mendoza"
+    },
+    {
+      "code": "UNLaM",
+      "fullName": "Universidad Nacional de La Matanza"
     }
   ]
 }
