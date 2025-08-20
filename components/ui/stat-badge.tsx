@@ -25,14 +25,12 @@ export default function StatBadge({
     <div
       className={`p-6 rounded-xl md:h-auto shadow-sm ${statBadgeColors[color]} flex flex-row items-center justify-between`}
     >
-      <div className="flex md:flex-col flex-row md:items-start items-center w-full justify-between gap-4 mr-2">
-        <h3 className="text-md font-medium">{title}</h3>
-        <span className="text-3xl md:text-5xl font-extrabold md:mb-0 mb-1">
-          {value}
-        </span>
-      </div>
-      <div className="flex flex-col items-center justify-center md:mr-1">
-        {icon}
+      <div className="flex md:flex-col flex-row md:items-center items-center w-full justify-between gap-4 mr-2">
+        <div className="">
+          {icon}
+          <h3 className="text-md font-medium">{title}</h3>
+        </div>
+        <span className="text-3xl  md:text-3xl font-extrabold ">{value}</span>
       </div>
     </div>
   );
