@@ -118,6 +118,41 @@
                 "regimen": null,
                 "correlativas_regular": [],
                 "correlativas_aprobada": []
+              },
+              {
+                "code": 33,
+                "name": "Física II",
+                "regimen": null,
+                "correlativas_regular": ["Física I"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 34,
+                "name": "Cálculo III",
+                "regimen": null,
+                "correlativas_regular": ["Cálculo II"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 35,
+                "name": "Biología I",
+                "regimen": null,
+                "correlativas_regular": [],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 36,
+                "name": "Electrotecnia",
+                "regimen": null,
+                "correlativas_regular": ["Física I"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 37,
+                "name": "Computación",
+                "regimen": null,
+                "correlativas_regular": ["Informática I"],
+                "correlativas_aprobada": []
               }
             ]
           },
@@ -158,6 +193,41 @@
                 "regimen": "Anual",
                 "correlativas_regular": ["Informática I"],
                 "correlativas_aprobada": []
+              },
+              {
+                "code": 38,
+                "name": "Análisis Numérico",
+                "regimen": null,
+                "correlativas_regular": ["Álgebra Lineal", "Cálculo II"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 39,
+                "name": "Dispositivos Electrónicos",
+                "regimen": null,
+                "correlativas_regular": ["Análisis de Circuitos I"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 40,
+                "name": "Organización",
+                "regimen": null,
+                "correlativas_regular": [],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 41,
+                "name": "Fisiología y Biofísica",
+                "regimen": null,
+                "correlativas_regular": ["Biología I", "Física II"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 42,
+                "name": "Circuitos Digitales I",
+                "regimen": "Anual",
+                "correlativas_regular": ["Análisis de Circuitos I"],
+                "correlativas_aprobada": []
               }
             ]
           },
@@ -197,6 +267,83 @@
                 "name": "Modelos y Simulación",
                 "regimen": null,
                 "correlativas_regular": ["Estadística Aplicada I"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 43,
+                "name": "Biomateriales",
+                "regimen": null,
+                "correlativas_regular": ["Química Biológica"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 44,
+                "name": "Electrónica Analógica II",
+                "regimen": null,
+                "correlativas_regular": ["Electrónica Analógica I"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 45,
+                "name": "Radiación y Protección Radiológica",
+                "regimen": null,
+                "correlativas_regular": ["Electrónica Nuclear"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 46,
+                "name": "Instalaciones Hospitalarias",
+                "regimen": null,
+                "correlativas_regular": [],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 47,
+                "name": "Práctica Profesional Supervisada",
+                "regimen": null,
+                "correlativas_regular": ["80% de la carrera aprobada"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 48,
+                "name": "Bioinstrumentación II",
+                "regimen": null,
+                "correlativas_regular": ["Bioinstrumentación I"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 49,
+                "name": "Equipos de Diagnóstico y Terapia",
+                "regimen": null,
+                "correlativas_regular": ["Bioinstrumentación I"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 50,
+                "name": "Complementaria Obligatoria",
+                "regimen": null,
+                "correlativas_regular": [],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 51,
+                "name": "Taller de Proyecto Integrador (4° Año)",
+                "regimen": null,
+                "correlativas_regular": ["60% de la carrera aprobada"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 52,
+                "name": "Higiene, Seguridad y Saneamiento",
+                "regimen": null,
+                "correlativas_regular": [],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 53,
+                "name": "Optativa I",
+                "regimen": null,
+                "correlativas_regular": [],
                 "correlativas_aprobada": []
               }
             ]
