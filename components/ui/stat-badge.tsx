@@ -27,7 +27,9 @@ export default function StatBadge({
     >
       <div className="flex md:flex-col flex-row md:items-start items-center w-full justify-between gap-4 mr-2">
         <h3 className="text-md font-medium">{title}</h3>
-        <span className="text-3xl md:text-5xl font-extrabold">{value}</span>
+        <span className="text-3xl md:text-5xl font-extrabold md:mb-0 mb-1">
+          {value}
+        </span>
       </div>
       <div className="flex flex-col items-center justify-center md:mr-1">
         {icon}
