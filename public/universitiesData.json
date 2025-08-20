@@ -187,13 +187,7 @@
                 "correlativas_regular": ["Biología II"],
                 "correlativas_aprobada": []
               },
-              {
-                "code": 20,
-                "name": "Informática II",
-                "regimen": "Anual",
-                "correlativas_regular": ["Informática I"],
-                "correlativas_aprobada": []
-              },
+
               {
                 "code": 38,
                 "name": "Análisis Numérico",
@@ -297,53 +291,12 @@
                 "correlativas_regular": [],
                 "correlativas_aprobada": []
               },
-              {
-                "code": 47,
-                "name": "Práctica Profesional Supervisada",
-                "regimen": null,
-                "correlativas_regular": ["80% de la carrera aprobada"],
-                "correlativas_aprobada": []
-              },
-              {
-                "code": 48,
-                "name": "Bioinstrumentación II",
-                "regimen": null,
-                "correlativas_regular": ["Bioinstrumentación I"],
-                "correlativas_aprobada": []
-              },
-              {
-                "code": 49,
-                "name": "Equipos de Diagnóstico y Terapia",
-                "regimen": null,
-                "correlativas_regular": ["Bioinstrumentación I"],
-                "correlativas_aprobada": []
-              },
-              {
-                "code": 50,
-                "name": "Complementaria Obligatoria",
-                "regimen": null,
-                "correlativas_regular": [],
-                "correlativas_aprobada": []
-              },
+
               {
                 "code": 51,
                 "name": "Taller de Proyecto Integrador (4° Año)",
                 "regimen": null,
                 "correlativas_regular": ["60% de la carrera aprobada"],
-                "correlativas_aprobada": []
-              },
-              {
-                "code": 52,
-                "name": "Higiene, Seguridad y Saneamiento",
-                "regimen": null,
-                "correlativas_regular": [],
-                "correlativas_aprobada": []
-              },
-              {
-                "code": 53,
-                "name": "Optativa I",
-                "regimen": null,
-                "correlativas_regular": [],
                 "correlativas_aprobada": []
               }
             ]
@@ -391,6 +344,41 @@
                 "name": "Trabajo Final",
                 "regimen": null,
                 "correlativas_regular": ["Todas las materias aprobadas"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 52,
+                "name": "Higiene, Seguridad y Saneamiento",
+                "regimen": null,
+                "correlativas_regular": [],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 49,
+                "name": "Equipos de Diagnóstico y Terapia",
+                "regimen": null,
+                "correlativas_regular": ["Bioinstrumentación I"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 48,
+                "name": "Bioinstrumentación II",
+                "regimen": null,
+                "correlativas_regular": ["Bioinstrumentación I"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 47,
+                "name": "Práctica Profesional Supervisada",
+                "regimen": null,
+                "correlativas_regular": ["80% de la carrera aprobada"],
+                "correlativas_aprobada": []
+              },
+              {
+                "code": 53,
+                "name": "Optativa I",
+                "regimen": null,
+                "correlativas_regular": [],
                 "correlativas_aprobada": []
               },
               {
